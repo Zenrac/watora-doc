@@ -1,7 +1,3 @@
----
-description: Frequently Asked Questions
----
-
 # FAQ
 
 ## How to use Autoplaylists ?
