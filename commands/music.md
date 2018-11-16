@@ -6,7 +6,7 @@
 `command (optional) [required]`
 {% endhint %}
 
-| **Name** | Example |
+| **Name** | Help |
 | :--- | :--- |
 | **`join (voice_channel)`** | Summons Watora into your voice channel or into the specified one. |
 | **`np`** |  Returns some information about the current song. |
