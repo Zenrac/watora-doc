@@ -12,6 +12,12 @@ You can use`settings`to display current Watora's settings.
 
 ### Set a custom prefix
 
+{% hint style="info" %}
+Discord auto-deletes your useless spaces at the end of your messages.
+
+You have to litteraly write square brackets`[]`in your new prefix to keep your spaces.
+{% endhint %}
+
 To set a custom prefix you have to use`prefix`
 
 | Usage | Help |

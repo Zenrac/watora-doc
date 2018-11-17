@@ -10,7 +10,11 @@ description: >-
 ## Get started with this wiki
 
 {% hint style="danger" %}
- Do not literally write \[ \] \( \) in your commands.
+ **Make sure to read this before reading another part of the wiki :**
+
+* Do not literally write `[ ] ( )` in your commands. 
+* Sometimes you'll have to write the vertical bar, it generaly happens when you can specify several roles/texts.. It doesn't apply when the veritcal bar is used without spaces between two parameters.
+* This wiki doesn't display it but every commands are called with a prefix.
 {% endhint %}
 
 Welcome to **Watora's Documentation** !
