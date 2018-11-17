@@ -15,9 +15,9 @@
 * [Fun](commands/fun.md)
 * [Useful](commands/useful.md)
 * [Moderation](commands/moderation.md)
-* [Configuration](commands/configuration.md)
 
 ## Configuration
 
+* [Settings](configuration/settings.md)
 * [Permissions](configuration/permissions.md)
 

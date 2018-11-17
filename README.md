@@ -21,7 +21,7 @@ I hope you'll find enough help to **fully understand** Watora. If you want to co
 
 Watora doesn't need any setup, it's designed to be intuitive.
 
-But you can configure many things, take a look the the [configuration page](commands/configuration.md).
+But you can configure many things, take a look the the [configuration page]().
 
 ## Setup Autoplaylists
 
