@@ -13,7 +13,7 @@ description: >-
  **Make sure to read this before reading another part of the wiki :**
 
 * Do not literally write `[ ] ( )` in your commands. 
-* Sometimes you'll have to write the vertical bar, it generaly happens when you can specify several roles/texts.. It doesn't apply when the veritcal bar is used without spaces between two parameters.
+* Sometimes you'll have to write the vertical bar, it generally happens when you can specify several roles/texts.. It doesn't apply when the veritcal bar is written without spaces between two parameters.
 * This wiki doesn't display it but every commands are called with a prefix.
 {% endhint %}
 
