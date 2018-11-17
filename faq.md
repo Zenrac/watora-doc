@@ -1,3 +1,7 @@
+---
+description: Frequently asked questions about Watora.
+---
+
 # FAQ
 
 ## How to use Autoplaylists ?
