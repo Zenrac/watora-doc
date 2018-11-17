@@ -45,7 +45,7 @@ description: Help with music commands.
 | **`radio [play|list]`** | Radio commands management. |
 | **`radio play`** | Adds a radio from the known radios to the queue to be played. _For other radios, you'll have to play them manualy with`play`_ |
 | **`radio list`** | Displays the list of my available radio stations. |
-| **`pl`** | This command has [her own page here](../autoplaylists.md) |
+| **`pl`** | This command has [her own page here](../features/autoplaylists.md) |
 
 
 

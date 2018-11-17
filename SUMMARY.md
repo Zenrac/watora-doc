@@ -2,9 +2,12 @@
 
 * [Home](README.md)
 * [FAQ](faq.md)
-* [Autoplaylists](autoplaylists.md)
-* [CustomCommands](customcommands.md)
-* [Rich Commands](rich-commands.md)
+
+## Features
+
+* [Rich Commands](features/rich-commands.md)
+* [CustomCommands](features/customcommands.md)
+* [Autoplaylists](features/autoplaylists.md)
 
 ## Commands
 
@@ -13,4 +16,8 @@
 * [Useful](commands/useful.md)
 * [Moderation](commands/moderation.md)
 * [Configuration](commands/configuration.md)
+
+## Configuration
+
+* [Permissions](configuration/permissions.md)
 

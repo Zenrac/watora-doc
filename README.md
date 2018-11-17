@@ -25,9 +25,9 @@ But you can configure many things, take a look the the [configuration page](comm
 
 ## Setup Autoplaylists
 
-You can find a cool page to learn everything about Autoplaylists [here](autoplaylists.md).
+You can find a cool page to learn everything about Autoplaylists [here](features/autoplaylists.md).
 
 ## Create your own commands and aliases
 
-If you want to create your own commands and your own aliases you'll have to use CustomCommands, maybe you should take a look to the[ CustomCommands page.](customcommands.md)
+If you want to create your own commands and your own aliases you'll have to use CustomCommands, maybe you should take a look to the[ CustomCommands page.](features/customcommands.md)
 
