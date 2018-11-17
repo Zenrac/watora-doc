@@ -10,5 +10,5 @@ Autoplaylists are one of the biggest Watora's features. Many people don't unders
 
 ## How to create my own Commands and Aliases ?
 
-You have to use CustomCommands. You can do a lot of things with CustomCommands, including creating your own commands and aliases. I made a whole page about CustomCommands, [you can find it here](features/customcommands.md).
+You have to use CustomCommands. You can do a lot of things with CustomCommands, including creating your own commands and aliases. I made a whole page about CustomCommands, [you can find it here.](features/custom-commands-1.md)
 

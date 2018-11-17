@@ -33,5 +33,5 @@ You can find a cool page to learn everything about Autoplaylists [here](features
 
 ## Create your own commands and aliases
 
-If you want to create your own commands and your own aliases you'll have to use CustomCommands, maybe you should take a look to the[ CustomCommands page.](features/customcommands.md)
+If you want to create your own commands and your own aliases you'll have to use CustomCommands, maybe you should take a look to the[ CustomCommands page.]()
 

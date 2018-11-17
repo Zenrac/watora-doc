@@ -22,7 +22,7 @@ Watora's permissions are mostly based on your channel/guild permissions.
 * You cannot use the purge command if you cannot manage messages.
 
 {% hint style="info" %}
-To manage Watora's setting you need at least the `manage guild`permission.
+To manage Watora's settings you need at least the `manage guild`permission.
 {% endhint %}
 
 ## Music Permissions

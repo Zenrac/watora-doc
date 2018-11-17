@@ -6,8 +6,8 @@
 ## Features
 
 * [Rich Commands](features/rich-commands.md)
-* [CustomCommands](features/customcommands.md)
 * [Autoplaylists](features/autoplaylists.md)
+* [Custom Commands](features/custom-commands-1.md)
 
 ## Commands
 
