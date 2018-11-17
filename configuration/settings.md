@@ -5,12 +5,12 @@ description: Explanation to set custom settings for the bot.
 # Settings
 
 {% hint style="info" %}
-You can use `settings`to display current Watora's settings.
+You can use`settings`to display current Watora's settings.
 {% endhint %}
 
-## Global Settings
+## Global Server Settings
 
-### Set a custom prefix on your server
+### Set a custom prefix
 
 To set a custom prefix you have to use`prefix`
 
@@ -20,7 +20,7 @@ To set a custom prefix you have to use`prefix`
 | **`prefix now`** | Displays the current server prefix. |
 | **`prefix reset`** | Resets the server prefix to the global one. |
 
-### Set a custom language on your server
+### Set a custom language
 
 To set a custom language you have to use `language`
 
@@ -87,7 +87,21 @@ To set a goodbye message you have to use `goobye`
       <td style="text-align:left">Disables the goodbye message on the channel.</td>
     </tr>
   </tbody>
-</table>### Enable the OwO mod
+</table>### Set one or serveral auto roles
+
+{% hint style="info" %}
+Auto roles are given when an use join the server.
+{% endhint %}
+
+To set one or several auto roles you have to use `autorole`
+
+| Usage | Help |
+| :--- | :--- |
+| **`autorole [role] (role2) (role3)...`** | Sets an autorole, or several if serveral are specified. |
+| **`autorole now`** | Displays the list of current autoroles on the server. |
+| **`autorole reset`** | Disables autoroles on the server. |
+
+### Enable the OwO mod
 
 {% hint style="info" %}
 This command converts Watora's answers to OwO language.
@@ -99,7 +113,7 @@ To enable Watora's OwO mod you have to use `owo`
 | :--- | :--- |
 | **`owo (text)`** | Enables or disables the Watora's OwO mod. Otherwise if a text is specified, returns an owofied text. |
 
-## Music Settings
+## Music Server Settings
 
 ### Set a DJ Role
 
