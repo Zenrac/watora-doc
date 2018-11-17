@@ -4,6 +4,7 @@
 * [FAQ](faq.md)
 * [Autoplaylists](autoplaylists.md)
 * [CustomCommands](customcommands.md)
+* [Rich Commands](rich-commands.md)
 
 ## Commands
 

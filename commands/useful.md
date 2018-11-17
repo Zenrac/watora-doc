@@ -6,7 +6,3 @@ description: Help with useful commands.
 
 {% hint style="info" %}
 
-\*\*\*\*
-
-
-
