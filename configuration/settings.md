@@ -29,7 +29,97 @@ To set a custom language you have to use `language`
 | **`language [lang]`** | Allows to set \[lang\] as the new server language. |
 | **`language list`** | Displays available language list. |
 
+### Set a Welcome message
+
+To set a welcome message you have to use `welcome`
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Usage</th>
+      <th style="text-align:left">Help</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b><code>welcome [text] (| [text2] | [text3]...)</code></b>
+      </td>
+      <td style="text-align:left">
+        <p>Enables a message that will be sent to the channel when someone join the
+          server. You can specify serveral text separated by a vertical bar and one
+          will be randomly sent.</p>
+        <p><em></em><a href="../features/rich-commands.md"><em>This command is a Rich Command</em></a><em></em>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b><code>welcome off</code></b>
+      </td>
+      <td style="text-align:left">Disables the welcome message on the channel.</td>
+    </tr>
+  </tbody>
+</table>### Set a Goodbye message
+
+To set a goodbye message you have to use `goobye`
+
+<table>
+  <thead>
+    <tr>
+      <th style="text-align:left">Usage</th>
+      <th style="text-align:left">Help</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b><code>goodbye [text] (| [text2] | [text3]...)</code></b>
+      </td>
+      <td style="text-align:left">
+        <p>Enables a message that will be sent to the channel when someone leaves
+          the server. You can specify serveral text separated by a vertical bar and
+          one will be randomly sent.</p>
+        <p><em></em><a href="../features/rich-commands.md"><em>This command is a Rich Command</em></a><em></em>
+        </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b><code>goodbye off</code></b>
+      </td>
+      <td style="text-align:left">Disables the goodbye message on the channel.</td>
+    </tr>
+  </tbody>
+</table>### Enable the OwO mod
+
+{% hint style="info" %}
+This command converts Watora's answers to OwO language.
+{% endhint %}
+
+To enable Watora's OwO mod you have to use `owo`
+
+| Usage | Help |
+| :--- | :--- |
+| **`owo (text)`** | Enables or disables the Watora's OwO mod. Otherwise if a text is specified, returns an owofied text. |
+
 ## Music Settings
+
+### Set a DJ Role
+
+{% hint style="danger" %}
+DJs have more music permissions than regular users.  
+Member with a DJ role can uses every musical commands.
+{% endhint %}
+
+{% hint style="info" %}
+A role called DJ grants DJ permissions.
+{% endhint %}
+
+To set a DJ role you have to use `setdj` to learn more things about DJ permissions, take a look to this.
+
+| Usage | Help |
+| :--- | :--- |
+| **`setdj [role] (role2) (role3)...`** | Configures a role as a DJ role \(or several\). |
+| **`setdj reset`** | Removes the DJ permissions of every role on the server. |
+| **`setdj now`** | Displays every roles with the DJ permissions. |
+| **`setdj everyone`** | Grants Watora's DJ permissions to everyone on the server. |
 
 ### Set a custom default volume
 
@@ -74,6 +164,18 @@ To set a custom channel for Now Playing or to disable them you have to use `npms
 | **`npmsg never`** | Disables now playing messages at the beginning of new song. |
 | **`npmsg reset`** | Resets Watora's setting about auto now playing messages at the beginning of new songs. |
 | **`npmsg now`** | Displays Watora's current setting about auto now playing messages at the beginning of new songs. |
+
+### How to use music commands with reactions
+
+{% hint style="info" %}
+Only `skip, volume, pause, repeat, replay, previousnow, shuffle, stop` are available with reactions.
+{% endhint %}
+
+To use music commands with reaction you have to enable the lazy mod by using `lazy`
+
+| Usage | Help |
+| :--- | :--- |
+| **`lazy`** | Enables or disables Watora's Lazy Mod. |
 
 
 
