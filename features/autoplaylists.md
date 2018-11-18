@@ -6,7 +6,7 @@ description: Everything you must know about Autoplaylists.
 
 ## Introduction
 
-Autoplaylists are one of the most important feature of Watora, it allows to autoplay songs forever while the autoplaylist is enabled. You can create as much autoplaylists as you want, and you can use them everywhere, whatever if you created it on another
+Autoplaylists are one of the most important feature of Watora, it allows to autoplay songs forever while the autoplaylist is enabled. You can create as much autoplaylists as you want, and you can use them everywhere, whatever if you created it on another server.
 
 ## Manage autoplaylists
 
