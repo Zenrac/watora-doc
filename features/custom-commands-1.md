@@ -39,15 +39,13 @@ Here's an example of a russian roulette which either play an earrape, or a relax
 
 ![Haha, I got lucky](../.gitbook/assets/image%20%2812%29.png)
 
-### Mixing two commands together
+### Mixing several commands together
 
 You can call several commands thanks to`&&`
 
 **Example :**
 
 ![Same example than Rich Command one, but in a custom command.](../.gitbook/assets/image%20%289%29.png)
-
-* Every variables mentionned in [Rich Commands](rich-commands.md)
 
 ## Custom Commands Advanced
 
