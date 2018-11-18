@@ -226,5 +226,5 @@ Use `pl set (autoplaylist)` to display current autoplaylist settings.
 
 _Enabled by default._
 
-Defines if the song are randomly played, or if the autoplaylist should be read in order.
+Defines if songs are randomly played, or if the autoplaylist should be read in order.
 
