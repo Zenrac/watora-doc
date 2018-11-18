@@ -20,7 +20,7 @@ You can use this feature to create cool custom commands or welcome messages
 
 By writing a variable between curly brackets, you can get a real value.
 
-![Here, I get my username and my avatar url](../.gitbook/assets/image%20%2811%29.png)
+![Here, I get my username and my avatar url](../.gitbook/assets/image%20%2813%29.png)
 
 {% hint style="info" %}
 `author.avatar_url`gives a link, as `choice`is a Rich Command, the link is hidden.
@@ -224,7 +224,7 @@ in `author.name`**author** is a **variable**, and **name** an **attribute**
 
 **Example :**
 
-![](../.gitbook/assets/image%20%285%29.png)
+![](../.gitbook/assets/image%20%287%29.png)
 
 #### Specials
 
@@ -252,7 +252,7 @@ Using `{~}` do the same thing than using`{0~100}`
 
 **Example :**
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 ### You can call a command
 
@@ -260,7 +260,7 @@ By using `>>>`you can specify that the following word is a command.
 
 **Example :**
 
-![The choice command chosen to start the flip command](../.gitbook/assets/image%20%283%29.png)
+![The choice command chosen to start the flip command](../.gitbook/assets/image%20%284%29.png)
 
 ###  **You can even call several commands**
 
@@ -272,7 +272,7 @@ It's not exactly at the same time, commands are started in order, starting from 
 
 **Example :**
 
-![Doing both commands](../.gitbook/assets/image%20%288%29.png)
+![Doing both commands](../.gitbook/assets/image%20%2810%29.png)
 
 ## What's the point of Rich Commands ?
 
