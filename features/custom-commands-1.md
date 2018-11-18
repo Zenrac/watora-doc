@@ -23,7 +23,7 @@ To manage custom commands on your server you have to use `customcommand` \(or `c
 
 ![Simple custom command](../.gitbook/assets/image%20%281%29.png)
 
-### Creating a allias
+### Creating an allias
 
 To create an alias you can use the fact that [you can call a command](rich-commands.md#you-can-call-a-command) with Rich Commands.
 
