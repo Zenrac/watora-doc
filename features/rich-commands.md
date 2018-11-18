@@ -6,7 +6,7 @@ description: Explains what is a rich command. And her differences with a basic c
 
 ## Rich Commands Attributes
 
-Rich commands are an useful part of Watora's command creating unlimited possibilities.
+Rich commands are an useful part of Watora's commands, which create unlimited possibilities.
 
 ### Image URLs are automatically hidden
 
