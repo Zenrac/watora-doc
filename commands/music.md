@@ -47,11 +47,3 @@ description: Help with music commands.
 | **`radio list`** | Displays the list of my available radio stations. |
 | **`pl`** | This command has [her own page here](../features/autoplaylists.md) |
 
-
-
-
-
-
-
-
-
