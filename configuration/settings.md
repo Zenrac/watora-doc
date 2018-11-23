@@ -66,7 +66,7 @@ To set a welcome message you have to use `welcome`
   </tbody>
 </table>### Set a Goodbye message
 
-To set a goodbye message you have to use `goobye`
+To set a goodbye message you have to use `goodbye`
 
 <table>
   <thead>
