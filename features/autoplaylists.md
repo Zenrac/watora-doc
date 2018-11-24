@@ -205,7 +205,7 @@ In almost every case you should let your autoplaylist Private.
 {% endhint %}
 
 {% hint style="warning" %}
-Only whitelist people you trust in, or clone your autoplaylist somewhere to have a backup.
+Only whitelist people you trust. Or clone your autoplaylist somewhere to have a backup.
 {% endhint %}
 
 {% hint style="info" %}
@@ -213,7 +213,7 @@ You can start your personal autoplaylist by writing `pl`
 {% endhint %}
 
 {% hint style="info" %}
-You can create shortener to start an autoplaylist \(and maybe avoid to mentionning someone each time you want to start his personal autoplaylist\). Take a look to [Custom Commands](custom-commands-1.md).
+You can create shortener to start an autoplaylist \(and maybe avoid to mention someone each time you want to start his personal autoplaylist\). Take a look to [Custom Commands](custom-commands-1.md).
 {% endhint %}
 
 ### Autoplaylist settings
