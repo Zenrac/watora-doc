@@ -73,7 +73,7 @@ You have to use `blacklist` to blacklist users or roles
 You can't disable a customcommand. Instead, delete it.
 {% endhint %}
 
-To disable a command you have to use `disabledcommand` \(also called`dc)`
+To disable a command you have to use `disabledcommand` \(also called`dc`\)
 
 | Usage | Help |
 | :--- | :--- |
