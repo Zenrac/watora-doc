@@ -101,6 +101,7 @@ cmd This is an example
 {1:3} = This is an
 {-1} = example
 {-1:-2} = example an
+{2:} = is an example
 ```
 
 {% hint style="info" %}
