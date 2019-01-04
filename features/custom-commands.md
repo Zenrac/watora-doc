@@ -1,3 +1,7 @@
+---
+description: Everything you must know about how to create and use Custom Commands.
+---
+
 # Custom Commands
 
 {% hint style="warning" %}
