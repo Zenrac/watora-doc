@@ -1,3 +1,7 @@
+---
+description: Everything you want to know about Watora's Permissions
+---
+
 # Permissions
 
 {% hint style="info" %}
