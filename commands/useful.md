@@ -5,7 +5,6 @@ description: Help with useful commands.
 # Useful
 
 {% hint style="info" %}
-
 **Reminder :**
 
 `command (optional) [required] [choice|choice_2]`
@@ -14,6 +13,7 @@ description: Help with useful commands.
 * Parameters between square brackets are required.
 * Parameters separated by vertical bars means that you have to choose one of them. 
 * Any characters outside parenthesis and brackets are supposed to be written.
+{% endhint %}
 
 <table>
   <thead>
@@ -58,7 +58,7 @@ description: Help with useful commands.
       </td>
       <td style="text-align:left">
         <p>Displays information about Watora permissions.</p>
-        <p><em>For more information see</em>  <a href="../configuration/permissions.md"><em>this page</em></a><em>.</em>
+        <p><em>For more information see </em><a href="../configuration/permissions.md"><em>this page</em></a><em>.</em>
         </p>
       </td>
     </tr>

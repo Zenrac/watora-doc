@@ -10,9 +10,9 @@ Autoplaylists are one of the biggest Watora's features. Many people don't unders
 
 ## How to create my own Commands and Aliases ?
 
-You have to use CustomCommands. You can do a lot of things with CustomCommands, including creating your own commands and aliases. I made a whole page about CustomCommands, [you can find it here.](https://github.com/Zenrac/watora-doc/tree/7b033c075b35be8a31e48251c038c193f9441d95/features/custom-commands-1.md)
+You have to use CustomCommands. You can do a lot of things with CustomCommands, including creating your own commands and aliases. I made a whole page about CustomCommands, [you can find it here.](features/custom-commands-1.md)
 
 ## Is Watora from an anime ?
 
-No, it's an OC \(original character\) drawn by Peko.
+No, it's an OC \(original character\) drawn by Peko. 
 

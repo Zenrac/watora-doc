@@ -22,9 +22,9 @@ To set a custom prefix you have to use`prefix`
 
 | Usage | Help |
 | :--- | :--- |
-| `prefix change [new_prefix]` | Allows to set \[new\_prefix\] as the new server prefix. |
-| `prefix now` | Displays the current server prefix. |
-| `prefix reset` | Resets the server prefix to the global one. |
+| **`prefix change [new_prefix]`** | Allows to set \[new\_prefix\] as the new server prefix. |
+| **`prefix now`** | Displays the current server prefix. |
+| **`prefix reset`** | Resets the server prefix to the global one. |
 
 ### Set a custom language
 
@@ -32,60 +32,68 @@ To set a custom language you have to use `language`
 
 | Usage | Help |
 | :--- | :--- |
-| `language [lang]` | Allows to set \[lang\] as the new server language. |
-| `language list` | Displays available language list. |
+| **`language [lang]`** | Allows to set \[lang\] as the new server language. |
+| **`language list`** | Displays available language list. |
 
 ### Set a Welcome message
 
 To set a welcome message you have to use `welcome`
 
-| Usage | Help |
-| :--- | :--- |
-
-
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"><b><code>welcome [text] (| [text2] | [text3]...)</code></b>
-      </th>
-      <th style="text-align:left">
+      <th style="text-align:left">Usage</th>
+      <th style="text-align:left">Help</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b><code>welcome [text] (| [text2] | [text3]...)</code></b>
+      </td>
+      <td style="text-align:left">
         <p>Enables a message that will be sent to the channel when someone join the
           server. You can specify serveral text separated by a vertical bar and one
           will be randomly sent.</p>
-        <p><a href="../features/rich-commands.md"><em>This command is a Rich Command</em></a>
+        <p><em></em><a href="../features/rich-commands.md"><em>This command is a Rich Command</em></a><em></em>
         </p>
-      </th>
+      </td>
     </tr>
-  </thead>
-  <tbody></tbody>
-</table>| **`welcome off`** | Disables the welcome message on the channel. |
-| :--- | :--- |
-
+    <tr>
+      <td style="text-align:left"><b><code>welcome off</code></b>
+      </td>
+      <td style="text-align:left">Disables the welcome message on the channel.</td>
+    </tr>
+  </tbody>
+</table>### Set a Goodbye message
 
 To set a goodbye message you have to use `goodbye`
-
-| Usage | Help |
-| :--- | :--- |
-
 
 <table>
   <thead>
     <tr>
-      <th style="text-align:left"><b><code>goodbye [text] (| [text2] | [text3]...)</code></b>
-      </th>
-      <th style="text-align:left">
+      <th style="text-align:left">Usage</th>
+      <th style="text-align:left">Help</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td style="text-align:left"><b><code>goodbye [text] (| [text2] | [text3]...)</code></b>
+      </td>
+      <td style="text-align:left">
         <p>Enables a message that will be sent to the channel when someone leaves
           the server. You can specify serveral text separated by a vertical bar and
           one will be randomly sent.</p>
-        <p><a href="../features/rich-commands.md"><em>This command is a Rich Command</em></a>
+        <p><em></em><a href="../features/rich-commands.md"><em>This command is a Rich Command</em></a><em></em>
         </p>
-      </th>
+      </td>
     </tr>
-  </thead>
-  <tbody></tbody>
-</table>| **`goodbye off`** | Disables the goodbye message on the channel. |
-| :--- | :--- |
-
+    <tr>
+      <td style="text-align:left"><b><code>goodbye off</code></b>
+      </td>
+      <td style="text-align:left">Disables the goodbye message on the channel.</td>
+    </tr>
+  </tbody>
+</table>### Set one or serveral auto roles
 
 {% hint style="info" %}
 Auto roles are given when an use join the server.
@@ -95,9 +103,9 @@ To set one or several auto roles you have to use `autorole`
 
 | Usage | Help |
 | :--- | :--- |
-| `autorole [role] (role2) (role3)...` | Sets an autorole, or several if serveral are specified. |
-| `autorole now` | Displays the list of current autoroles on the server. |
-| `autorole reset` | Disables autoroles on the server. |
+| **`autorole [role] (role2) (role3)...`** | Sets an autorole, or several if serveral are specified. |
+| **`autorole now`** | Displays the list of current autoroles on the server. |
+| **`autorole reset`** | Disables autoroles on the server. |
 
 ### Enable the OwO mod
 
@@ -109,7 +117,7 @@ To enable Watora's OwO mod you have to use `owo`
 
 | Usage | Help |
 | :--- | :--- |
-| `owo (text)` | Enables or disables the Watora's OwO mod. Otherwise if a text is specified, returns an owofied text. |
+| **`owo (text)`** | Enables or disables the Watora's OwO mod. Otherwise if a text is specified, returns an owofied text. |
 
 ## Music Server Settings
 
@@ -128,10 +136,10 @@ To set a DJ role you have to use `setdj` to learn more things about DJ permissio
 
 | Usage | Help |
 | :--- | :--- |
-| `setdj [role] (role2) (role3)...` | Configures a role as a DJ role \(or several\). |
-| `setdj reset` | Removes the DJ permissions of every role on the server. |
-| `setdj now` | Displays every roles with the DJ permissions. |
-| `setdj everyone` | Grants Watora's DJ permissions to everyone on the server. |
+| **`setdj [role] (role2) (role3)...`** | Configures a role as a DJ role \(or several\). |
+| **`setdj reset`** | Removes the DJ permissions of every role on the server. |
+| **`setdj now`** | Displays every roles with the DJ permissions. |
+| **`setdj everyone`** | Grants Watora's DJ permissions to everyone on the server. |
 
 ### Set a custom default volume
 
@@ -143,9 +151,9 @@ To set a custom default volume you have to use `defvolume`
 
 | Usage | Help |
 | :--- | :--- |
-| `defvolume set [number]` | Sets the default volume to \[number\]. |
-| `defvolume now` | Displays the current default volume. |
-| `defvolume reset` | Resets Watora's default volume. |
+| **`defvolume set [number]`** | Sets the default volume to \[number\]. |
+| **`defvolume now`** | Displays the current default volume. |
+| **`defvolume reset`** | Resets Watora's default volume. |
 
 ### Set a custom autoleave time
 
@@ -157,10 +165,10 @@ To set a custom autoleave time you have to use `autoleave`
 
 | Usage | Help |
 | :--- | :--- |
-| `autoleave set [second]` | Edits Watora's time before leaving the voice channel for inactivity to \[second\] |
-| `autoleave never` | Disables Watora's auto-disconnect function for inactivity. |
-| `autoleave reset` | Resets Watora's time before leaving the voice channel for inactivity. |
-| `autoleave now` | Displays Watora's current time before leaving the voice channel for inactivity. |
+| **`autoleave set [second]`** | Edits Watora's time before leaving the voice channel for inactivity to \[second\] |
+| **`autoleave never`** | Disables Watora's auto-disconnect function for inactivity. |
+| **`autoleave reset`** | Resets Watora's time before leaving the voice channel for inactivity. |
+| **`autoleave now`** | Displays Watora's current time before leaving the voice channel for inactivity. |
 
 ### Set a custom channel or disable auto now playing messages
 
@@ -172,10 +180,10 @@ To set a custom channel for Now Playing or to disable them you have to use `npms
 
 | Usage | Help |
 | :--- | :--- |
-| `npmsg set [channel]` | Sets a default channel for auto now playing messages. |
-| `npmsg never` | Disables now playing messages at the beginning of new song. |
-| `npmsg reset` | Resets Watora's setting about auto now playing messages at the beginning of new songs. |
-| `npmsg now` | Displays Watora's current setting about auto now playing messages at the beginning of new songs. |
+| **`npmsg set [channel]`** | Sets a default channel for auto now playing messages. |
+| **`npmsg never`** | Disables now playing messages at the beginning of new song. |
+| **`npmsg reset`** | Resets Watora's setting about auto now playing messages at the beginning of new songs. |
+| **`npmsg now`** | Displays Watora's current setting about auto now playing messages at the beginning of new songs. |
 
 ### How to use music commands with reactions
 
@@ -187,5 +195,7 @@ To use music commands with reaction you have to enable the lazy mod by using `la
 
 | Usage | Help |
 | :--- | :--- |
-| `lazy` | Enables or disables Watora's Lazy Mod. |
+| **`lazy`** | Enables or disables Watora's Lazy Mod. |
+
+
 

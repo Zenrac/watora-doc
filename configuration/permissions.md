@@ -5,7 +5,7 @@ description: Everything you want to know about Watora's Permissions
 # Permissions
 
 {% hint style="info" %}
-Watora public invitations don't generate an useless role when joining your server.
+Watora public invitations don't generate an useless role when joining your server. 
 {% endhint %}
 
 {% hint style="info" %}
@@ -53,19 +53,19 @@ Users with at least the`manage guild`permissions aren't affected by this limitat
 
 | Usage | Help |
 | :--- | :--- |
-| `ignore (channel)` | Disables Watora's commands on a channel.  _Current channel if not specified._ |
-| `bind (channel)` | Binds Watora's commands to a channel.  _Current channel if not specified._ |
+| **`ignore (channel)`** | Disables Watora's commands on a channel.  _Current channel if not specified._ |
+| **`bind (channel)`** | Binds Watora's commands to a channel.  _Current channel if not specified._ |
 
 ### How to disable Watora to several users or roles
 
 You have to use `blacklist` to blacklist users or roles
 
-| Usage | Help |  |
-| :--- | :--- | :--- |
-| \*\*\`blacklist add \[user | role\]\`\*\* | Adds a user to the guild blacklist. |
-| \*\*\`blacklist remove \[user | role\]\`\*\* | Removes a user or a role from the guild blacklist. |
-| `blacklist clear` | Clears the guild blacklist. |  |
-| `blacklist list` | Displays the guild blacklist content. |  |
+| Usage | Help |
+| :--- | :--- |
+| **`blacklist add [user|role]`** | Adds a user to the guild blacklist. |
+| **`blacklist remove [user|role]`** | Removes a user or a role from the guild blacklist. |
+| **`blacklist clear`** | Clears the guild blacklist. |
+| **`blacklist list`** | Displays the guild blacklist content. |
 
 ### How to disable a Watora's command
 
@@ -77,7 +77,7 @@ To disable a command you have to use `disabledcommand` \(also called`dc`\)
 
 | Usage | Help |
 | :--- | :--- |
-| `dc add [command]` | Disables a command and his aliases on the server. |
-| `dc delete [command]` | Enables anew a disabled command. |
-| `dc list` | Displays the disabled commands list. |
+| **`dc add [command]`** | Disables a command and his aliases on the server. |
+| **`dc delete [command]`** | Enables anew a disabled command. |
+| **`dc list`** | Displays the disabled commands list. |
 
