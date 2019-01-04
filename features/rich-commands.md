@@ -278,6 +278,6 @@ It's not exactly at the same time, commands are started in order, starting from 
 
 * Custom Commands are [Rich Commands](rich-commands.md).
 * Welcome and Goodbye messages are [Rich Commands](rich-commands.md).
-* You can call a command in Custom Command, see [Custom Commands page](custom-commands-1.md) to get started.
-* You can even mix several commands into one [Custom Command.](custom-commands-1.md)
+* You can call a command in Custom Command, see [Custom Commands page](custom-commands.md) to get started.
+* You can even mix several commands into one [Custom Command.](custom-commands.md)
 

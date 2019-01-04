@@ -122,7 +122,7 @@ description: Help with fun commands.
     <tr>
       <td style="text-align:left"><b><code>customcommand</code></b>
       </td>
-      <td style="text-align:left">This command has <a href="../features/custom-commands-1.md">her own page here​</a>
+      <td style="text-align:left">This command has <a href="../features/custom-commands.md">her own page here​</a>
       </td>
     </tr>
   </tbody>
