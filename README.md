@@ -10,16 +10,16 @@ description: >-
 ## Get started with this wiki
 
 {% hint style="danger" %}
- **Make sure to read this before reading another part of the wiki :**
+
+**Make sure to read this before reading another part of the wiki :**
 
 * Do not literally write `[ ] ( )` in your commands. 
 * Sometimes you'll have to write the vertical bar, it generally happens when you can specify several roles/texts.. It doesn't apply when the veritcal bar is written without spaces between two parameters.
 * This wiki doesn't display it but every commands are called with a prefix.
-{% endhint %}
 
 Welcome to **Watora's Documentation** !
 
-I hope you'll find enough help to **fully understand** Watora. If you want to correct, edit, add or remove something on this Wiki, you can go on [the GitHub page](https://github.com/Zenrac/watora-doc). Your help will be gladly accepted ! 
+I hope you'll find enough help to **fully understand** Watora. If you want to correct, edit, add or remove something on this Wiki, you can go on [the GitHub page](https://github.com/Zenrac/watora-doc). Your help will be gladly accepted !
 
 ## Setup the bot
 
@@ -33,5 +33,5 @@ You can find a cool page to learn everything about Autoplaylists [here](features
 
 ## Create your own commands and aliases
 
-If you want to create your own commands and your own aliases you'll have to use CustomCommands, maybe you should take a look to the [Custom Commands page.](features/custom-commands-1.md)
+If you want to create your own commands and your own aliases you'll have to use CustomCommands, maybe you should take a look to the [Custom Commands page.](https://github.com/Zenrac/watora-doc/tree/7b033c075b35be8a31e48251c038c193f9441d95/features/custom-commands-1.md)
 

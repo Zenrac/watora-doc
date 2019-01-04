@@ -5,6 +5,7 @@ description: Help with fun commands.
 # Fun
 
 {% hint style="info" %}
+
 **Reminder :**
 
 `command (optional) [required] [choice|choice_2]`
@@ -13,7 +14,6 @@ description: Help with fun commands.
 * Parameters between square brackets are required.
 * Parameters separated by vertical bars means that you have to choose one of them. 
 * Any characters outside parenthesis and brackets are supposed to be written.
-{% endhint %}
 
 <table>
   <thead>
@@ -50,7 +50,7 @@ description: Help with fun commands.
       </td>
       <td style="text-align:left">
         <p>Allows to talk as Watora.</p>
-        <p><em></em><a href="../features/rich-commands.md"><em>This command is a Rich Command</em></a><em></em>
+        <p><a href="../features/rich-commands.md"><em>This command is a Rich Command</em></a>
         </p>
       </td>
     </tr>
@@ -60,7 +60,7 @@ description: Help with fun commands.
       <td style="text-align:left">
         <p>Randomly selects a random option between multiple options.
           <br />By putting >>> at the beginning, it will start the selected command.</p>
-        <p><a href="../features/rich-commands.md"><em>This command is a Rich Command</em></a><em></em>
+        <p><a href="../features/rich-commands.md"><em>This command is a Rich Command</em></a>
         </p>
       </td>
     </tr>
@@ -122,7 +122,7 @@ description: Help with fun commands.
     <tr>
       <td style="text-align:left"><b><code>customcommand</code></b>
       </td>
-      <td style="text-align:left">This command has <a href="../features/custom-commands-1.md">her own page here​</a>
+      <td style="text-align:left">This command has <a href="https://github.com/Zenrac/watora-doc/tree/7b033c075b35be8a31e48251c038c193f9441d95/features/custom-commands-1.md">her own page here​</a>
       </td>
     </tr>
   </tbody>
