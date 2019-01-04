@@ -1,3 +1,7 @@
+---
+description: Everything you must know about Autoplaylists.
+---
+
 # Custom Commands
 
 {% hint style="warning" %}
