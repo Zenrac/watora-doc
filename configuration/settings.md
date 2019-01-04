@@ -1,7 +1,3 @@
----
-description: Explanation to set custom settings for the bot.
----
-
 # Settings
 
 {% hint style="info" %}

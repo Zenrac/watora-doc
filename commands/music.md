@@ -1,7 +1,3 @@
----
-description: Help with music commands.
----
-
 # Music
 
 {% hint style="info" %}

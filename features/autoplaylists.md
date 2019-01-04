@@ -1,7 +1,3 @@
----
-description: Everything you must know about Autoplaylists.
----
-
 # Autoplaylists
 
 ## Introduction
@@ -213,7 +209,7 @@ You can start your personal autoplaylist by writing `pl`
 {% endhint %}
 
 {% hint style="info" %}
-You can create shortener to start an autoplaylist \(and maybe avoid to mention someone each time you want to start his personal autoplaylist\). Take a look to [Custom Commands](custom-commands-1.md).
+You can create shortener to start an autoplaylist \(and maybe avoid to mention someone each time you want to start his personal autoplaylist\). Take a look to [Custom Commands]().
 {% endhint %}
 
 ### Autoplaylist settings
