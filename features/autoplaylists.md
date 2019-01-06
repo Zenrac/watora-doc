@@ -129,7 +129,7 @@ It also means that `(autoplaylist)` in commands becomes `(user_mention)`.
 
 ![Using only pl instead of pl start and mentionning someone to load his personal autoplaylist](../.gitbook/assets/image%20%283%29.png)
 
-![Mentionning myself to display my personal autoplaylist settings](../.gitbook/assets/image%20%286%29.png)
+![Mentionning myself to display my personal autoplaylist settings](../.gitbook/assets/image%20%287%29.png)
 
 ## Autoplaylist Configuration
 

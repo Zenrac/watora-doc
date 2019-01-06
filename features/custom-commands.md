@@ -41,7 +41,7 @@ When creating the custom command, you can specify a static parameter for the com
 
 Here's an example of a russian roulette which either play an earrape, or a relaxing song.
 
-![Haha, I got lucky](../.gitbook/assets/image%20%2812%29.png)
+![Haha, I got lucky](../.gitbook/assets/image%20%2813%29.png)
 
 ### Mixing several commands together
 
@@ -49,7 +49,7 @@ You can call several commands thanks to`&&`
 
 **Example :**
 
-![Same example than Rich Command one, but in a custom command.](../.gitbook/assets/image%20%289%29.png)
+![Same example than Rich Command one, but in a custom command.](../.gitbook/assets/image%20%2810%29.png)
 
 ## Custom Commands Advanced
 
@@ -79,7 +79,7 @@ Using quotations between a group of words allows to get several words instead of
 
 **Example :**
 
-![](../.gitbook/assets/image%20%288%29.png)
+![](../.gitbook/assets/image%20%289%29.png)
 
 {% hint style="info" %}
 By default, if you only specify `>>>volume`without`{1}`it's the same thing than `>>>volume {0}` it means that every parameters are taken, when`{1}`only takes the first one.

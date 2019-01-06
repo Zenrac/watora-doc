@@ -45,5 +45,6 @@ description: Help with music commands.
 | **`radio [play|list]`** | Radio commands management. |
 | **`radio play`** | Adds a radio from the known radios to the queue to be played. _For other radios, you'll have to play them manualy with`play`_ |
 | **`radio list`** | Displays the list of my available radio stations. |
+| **`relatedsong`** | Enqueues a related song based on a specified URL.  _If no URL is specified, about the current song.  Only works with YouTube links._ |
 | **`pl`** | This command has [her own page here](../features/autoplaylists.md) |
 

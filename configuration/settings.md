@@ -185,6 +185,16 @@ To set a custom channel for Now Playing or to disable them you have to use `npms
 | **`npmsg reset`** | Resets Watora's setting about auto now playing messages at the beginning of new songs. |
 | **`npmsg now`** | Displays Watora's current setting about auto now playing messages at the beginning of new songs. |
 
+### Set a custom default vote Threshold for some commands for users without DJ permissions.
+
+Some commands such as `skip, leave` or `clear` can require vote if the author doesn't have DJ permissions.
+
+| Usage | Help |
+| :--- | :--- |
+| **`defvote set [number]`** | Sets the default vote Threshold. |
+| **`defvote reset`** | Resets the default vote Threshold. |
+| **`defvote now`** | Displays the current default vote Threshold. |
+
 ### How to use music commands with reactions
 
 {% hint style="info" %}
@@ -196,6 +206,16 @@ To use music commands with reaction you have to enable the lazy mod by using `la
 | Usage | Help |
 | :--- | :--- |
 | **`lazy`** | Enables or disables Watora's Lazy Mod. |
+
+![Lazy mod adds reactions to now playing messages.](../.gitbook/assets/image%20%285%29.png)
+
+### How to autoplay related songs when the queue is empty
+
+To enables this feature, you have to enable the autoplay setting, by using `autoplay`
+
+| Usage | Help |
+| :--- | :--- |
+| **`autoplay`** | Enables or disables the autoplay of recommended song when the queue is empty.  _Only available with YouTube links._ |
 
 
 

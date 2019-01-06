@@ -67,7 +67,7 @@ You have to use `blacklist` to blacklist users or roles
 | **`blacklist clear`** | Clears the guild blacklist. |
 | **`blacklist list`** | Displays the guild blacklist content. |
 
-### How to disable a Watora's command
+### How to disable Watora's commands
 
 {% hint style="info" %}
 You can't disable a customcommand. Instead, delete it.
@@ -77,7 +77,21 @@ To disable a command you have to use `disabledcommand` \(also called`dc`\)
 
 | Usage | Help |
 | :--- | :--- |
-| **`dc add [command]`** | Disables a command and his aliases on the server. |
-| **`dc delete [command]`** | Enables anew a disabled command. |
+| **`dc add [command|module|all]`** | Disables a command and his aliases on the server. |
+| **`dc delete [command|module|all]`** | Enables anew a disabled command. |
 | **`dc list`** | Displays the disabled commands list. |
+
+### How to disable Watora's commands per channel
+
+You can disable a lot of thing per channel thanks to the ignore command.
+
+| Usage | Help |
+| :--- | :--- |
+| **`ignore [channel] [command|module|all]`** | Disables a command, a module or every command in a channel. |
+
+{% hint style="info" %}
+List of known module : `Music, Fun, Useful, Moderation, Config, Image`
+{% endhint %}
+
+
 
