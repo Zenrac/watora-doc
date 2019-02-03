@@ -24,6 +24,15 @@ description: Help with fun commands.
   </thead>
   <tbody>
     <tr>
+      <td style="text-align:left"><b><code>minesweeper (level|rows) (cols) (bombs)</code></b>
+      </td>
+      <td style="text-align:left">
+        <p>Starts a minesweeper game using the spoiler feature of Discord.</p>
+        <p><em>Available levels: beginner, intermediate, expert</em>
+        </p>
+      </td>
+    </tr>
+    <tr>
       <td style="text-align:left"><b><code>8ball [question]</code></b>
       </td>
       <td style="text-align:left">Randomly answer to your question.</td>

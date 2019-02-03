@@ -228,3 +228,15 @@ _Enabled by default._
 
 Defines if songs are randomly played, or if the autoplaylist should be read in order.
 
+### How to tell the autoplaylist to start a song at a specified time
+
+By adding **`?t=SECONDS`** __at the end of your url when adding the song \(it also works with the play command\).
+
+{% hint style="info" %}
+**Exemples:**   
+**pl add** [**https://youtu.be/UQpRzyNXDBg?t=120**](https://youtu.be/UQpRzyNXDBg?t=120) **``**  
+**pl add** [**https://soundcloud.com/user-345751583/opening-recreator-full-gravity-wall?t=60**](https://soundcloud.com/user-345751583/opening-recreator-full-gravity-wall?t=60)\*\*\*\*
+{% endhint %}
+
+
+
