@@ -1,8 +1,8 @@
 ---
 description: >-
   Watora is a Discord Music Bot with 100% Free Commands. Volume, BassBoost,
-  Equalizer, Spotify, YouTube, Monstercat, Listen.moe, create your own commands
-  and much more !
+  Equalizer, Spotify, YouTube, Monstercat, Listen.moe, you can even create your
+  own commands and much more !
 ---
 
 # Home
