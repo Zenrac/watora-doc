@@ -77,7 +77,7 @@ To disable a command you have to use `disabledcommand` \(also called`dc`\)
 
 | Usage | Help |
 | :--- | :--- |
-| **`dc add [command|module|all]`** | Disables a command and his aliases on the server. |
+| **`dc add [command|module|all]`** | Disables a command and its aliases on the server. |
 | **`dc delete [command|module|all]`** | Enables anew a disabled command. |
 | **`dc list`** | Displays the disabled commands list. |
 
