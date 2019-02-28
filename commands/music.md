@@ -40,7 +40,7 @@ description: Help with music commands.
 | **`remove ([first_position] (second_position))`** | Removes a song from the queue. If you don't specify any position, removes the last song in queue. Otherwise remove a song based on its position in queue. You can specify a second position to remove every song between the two positions. |
 | **`moveto (+/-) [time]`** | Moves the song to a specific moment. You can either specify a time in hh:mm:ss format or add a relative time like + 30 to move 30 secondes forward. |
 | **`lyrics (key_words|URL)`** | Displays the lyrics of a song. If you don't specify any url or keywords, it displays the current song lyrics. |
-| **`bassboost (level)`** | Changes the player's bass frequencies up to 4 levels. `OFF, LOW, MEDIUM, HIGH, INSANE.`You can use the equalizer to make adjustments as you want. Displays the current setting if you don't specify any level. |
+| **`bassboost (level)`** | Changes the player's bass frequencies up to 5 levels. `OFF, LOW, MEDIUM, HIGH, INSANE, WTF.`You can use the equalizer to make adjustments as you want. Displays the current setting if you don't specify any level. |
 | **`equalizer ([band] [gain])`** | Manages an equalizer with 15 bands. Valid values are from -0.25 to 1. -0.25 means that the given frequency is completely muted and 0.25 means it is doubled. Use reactions to move the cursor and edit gains interactively. You can press the circle to reset the equalizer. Otherwise you can specify a band and a gain to edit it quickly. |
 | **`radio [play|list]`** | Radio commands management. |
 | **`radio play`** | Adds a radio from the known radios to the queue to be played. _For other radios, you'll have to play them manualy with`play`_ |
