@@ -33,10 +33,14 @@ To manage autoplaylists you have to use `pl`
       <td style="text-align:left">Creates a new autoplaylist with the specified name.</td>
     </tr>
     <tr>
-      <td style="text-align:left"><b><code>pl add (keywords|URL)</code></b>
+      <td style="text-align:left"><b><code>pl add (keywords|URL|current_queue)</code></b>
       </td>
-      <td style="text-align:left">Adds a song to the current autoplaylist.
-        <br /><em>If you don't specify an URL nor keywords, adds the current song to the autoplaylist.</em>
+      <td style="text-align:left">
+        <p>Adds a song to the current autoplaylist.
+          <br /><em>If you don't specify an URL nor keywords, adds the current song to the autoplaylist.</em>
+        </p>
+        <p><em>You can write current_queue to add the whole current queue to the autoplaylist.</em>
+        </p>
       </td>
     </tr>
     <tr>
