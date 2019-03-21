@@ -46,8 +46,8 @@ description: Help with fun commands.
       <td style="text-align:left"><b><code>roll ([val] (val2))</code></b>
       </td>
       <td style="text-align:left">Generates a random number between 0 and the value specifed. Can also generate
-        a random number between two values. Otherwise, if you don't specify any
-        value generate a random number between 0 and 100.</td>
+        a random number between two values. Otherwise, if you don&apos;t specify
+        any value generate a random number between 0 and 100.</td>
     </tr>
     <tr>
       <td style="text-align:left"><b><code>flip (user)</code></b>
@@ -59,8 +59,7 @@ description: Help with fun commands.
       </td>
       <td style="text-align:left">
         <p>Allows to talk as Watora.</p>
-        <p><em></em><a href="../features/rich-commands.md"><em>This command is a Rich Command</em></a><em></em>
-        </p>
+        <p>&lt;em&gt;&lt;/em&gt;<a href="../features/rich-commands.md"><em>This command is a Rich Command</em></a>&lt;em&gt;&lt;/em&gt;</p>
       </td>
     </tr>
     <tr>
@@ -68,9 +67,8 @@ description: Help with fun commands.
       </td>
       <td style="text-align:left">
         <p>Randomly selects a random option between multiple options.
-          <br />By putting >>> at the beginning, it will start the selected command.</p>
-        <p><a href="../features/rich-commands.md"><em>This command is a Rich Command</em></a><em></em>
-        </p>
+          <br />By putting &gt;&gt;&gt; at the beginning, it will start the selected command.</p>
+        <p><a href="../features/rich-commands.md"><em>This command is a Rich Command</em></a>&lt;em&gt;&lt;/em&gt;</p>
       </td>
     </tr>
     <tr>
@@ -93,15 +91,15 @@ description: Help with fun commands.
       <td style="text-align:left"><b><code>osu (mode) [username]</code></b>
       </td>
       <td style="text-align:left">Displays information about an osu! profile You can choose a mode, if you
-        don't specify any mode, standard is choosen.
+        don&apos;t specify any mode, standard is choosen.
         <br /><em>Mode list : Standard, Taiko, Ctb, Mania</em>
       </td>
     </tr>
     <tr>
       <td style="text-align:left"><b><code>marry (user)</code></b>
       </td>
-      <td style="text-align:left">Marries you to an user. If you don't specify an user and if you are already
-        married with someone displays information about your relationship.</td>
+      <td style="text-align:left">Marries you to an user. If you don&apos;t specify an user and if you are
+        already married with someone displays information about your relationship.</td>
     </tr>
     <tr>
       <td style="text-align:left"><b><code>divorce</code></b>
@@ -131,7 +129,7 @@ description: Help with fun commands.
     <tr>
       <td style="text-align:left"><b><code>customcommand</code></b>
       </td>
-      <td style="text-align:left">This command has <a href="../features/custom-commands.md">her own page here​</a>
+      <td style="text-align:left">This command has <a href="../features/custom-commands.md">her own page here&#x200B;</a>
       </td>
     </tr>
   </tbody>

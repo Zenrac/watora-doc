@@ -24,8 +24,7 @@ To manage autoplaylists you have to use `pl`
       <td style="text-align:left"><b><code>pl (start) (autoplaylist)</code></b>
       </td>
       <td style="text-align:left">Starts an autoplaylists.
-        <br /><em>If you don't specify an autoplaylist it loads your </em><a href="autoplaylists.md#personal-autoplaylist"><em>personal autoplaylists.</em></a><em></em>
-      </td>
+        <br /><em>If you don&apos;t specify an autoplaylist it loads your </em><a href="autoplaylists.md#personal-autoplaylist"><em>personal autoplaylists.</em></a>&lt;em&gt;&lt;/em&gt;</td>
     </tr>
     <tr>
       <td style="text-align:left"><b><code>pl new [autoplaylist]</code></b>
@@ -37,7 +36,7 @@ To manage autoplaylists you have to use `pl`
       </td>
       <td style="text-align:left">
         <p>Adds a song to the current autoplaylist.
-          <br /><em>If you don't specify an URL nor keywords, adds the current song to the autoplaylist.</em>
+          <br /><em>If you don&apos;t specify an URL nor keywords, adds the current song to the autoplaylist.</em>
         </p>
         <p><em>You can write current_queue to add the whole current queue to the autoplaylist.</em>
         </p>
@@ -47,7 +46,7 @@ To manage autoplaylists you have to use `pl`
       <td style="text-align:left"><b><code>pl remove (keywords|URL)</code></b>
       </td>
       <td style="text-align:left">Removes a song to the current autoplaylist.
-        <br /><em>If you don't specify an URL nor keywords, removes the current song from the autoplaylist.</em>
+        <br /><em>If you don&apos;t specify an URL nor keywords, removes the current song from the autoplaylist.</em>
       </td>
     </tr>
     <tr>
@@ -64,14 +63,14 @@ To manage autoplaylists you have to use `pl`
       <td style="text-align:left"><b><code>pl repair (autoplaylist)</code></b>
       </td>
       <td style="text-align:left">Repairs an autoplaylist.
-        <br /><em>If you don't specify one, repairs the current autoplaylist.</em>
+        <br /><em>If you don&apos;t specify one, repairs the current autoplaylist.</em>
       </td>
     </tr>
     <tr>
       <td style="text-align:left"><b><code>pl info (autoplaylist)</code></b>
       </td>
       <td style="text-align:left">Gives information about an autoplaylist.
-        <br /><em>If you don't specify one, about the current autoplaylist.</em>
+        <br /><em>If you don&apos;t specify one, about the current autoplaylist.</em>
       </td>
     </tr>
     <tr>
@@ -86,17 +85,31 @@ To manage autoplaylists you have to use `pl`
       </td>
       <td style="text-align:left">
         <p>Creates an autoplaylist by copying an existing autoplaylist.</p>
-        <p><em>If you don't specify one, clones the current autoplaylist.</em>
+        <p><em>If you don&apos;t specify one, clones the current autoplaylist.</em>
         </p>
       </td>
     </tr>
     <tr>
-      <td style="text-align:left"><b><code>pl settings (autoplaylist) <br />(--edit [private|shuffle<br />|whitelist])</code></b>
+      <td style="text-align:left"><b><code>pl settings (autoplaylist) <br />(--edit [private|shuffle<br />|whitelist|description| avatar])</code></b>
       </td>
       <td style="text-align:left">
         <p>Displays information about an autoplaylist or edits its settings.</p>
         <p><em>See </em><a href="autoplaylists.md#autoplaylist-permissions"><em>Autoplaylist permissions </em></a><em>for more information.</em>
         </p>
+      </td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b><code>pl find (query)</code></b>
+      </td>
+      <td style="text-align:left">Searches for an autoplaylist sorted by upvote.
+        <br />You can specify a query to accurate your search.</td>
+    </tr>
+    <tr>
+      <td style="text-align:left"><b><code>pl upvote (autoplaylist)</code></b>
+      </td>
+      <td style="text-align:left">
+        <p>Upvotes an autoplaylist.</p>
+        <p>Autoplaylists with more upvotes have more visibility</p>
       </td>
     </tr>
   </tbody>

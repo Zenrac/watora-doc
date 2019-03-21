@@ -36,17 +36,17 @@ description: Help with useful commands.
     <tr>
       <td style="text-align:left"><b><code>stats</code></b>
       </td>
-      <td style="text-align:left">Displays Watora's statistics.</td>
+      <td style="text-align:left">Displays Watora&apos;s statistics.</td>
     </tr>
     <tr>
       <td style="text-align:left"><b><code>credits</code></b>
       </td>
-      <td style="text-align:left">Displays Watora's special thanks list.</td>
+      <td style="text-align:left">Displays Watora&apos;s special thanks list.</td>
     </tr>
     <tr>
       <td style="text-align:left"><b><code>changelog</code></b>
       </td>
-      <td style="text-align:left">Displays Watora's last patch notes.</td>
+      <td style="text-align:left">Displays Watora&apos;s last patch notes.</td>
     </tr>
     <tr>
       <td style="text-align:left"><b><code>don</code></b>
@@ -70,7 +70,7 @@ description: Help with useful commands.
     <tr>
       <td style="text-align:left"><b><code>infoshard</code></b>
       </td>
-      <td style="text-align:left">Displays information about Watora's shards.</td>
+      <td style="text-align:left">Displays information about Watora&apos;s shards.</td>
     </tr>
     <tr>
       <td style="text-align:left"><b><code>avatar (user)</code></b>
@@ -81,7 +81,7 @@ description: Help with useful commands.
       <td style="text-align:left"><b><code>userinfo (user)</code></b>
       </td>
       <td style="text-align:left">Displays information about a user.
-        <br />If you don't specify any user, it displays yours.</td>
+        <br />If you don&apos;t specify any user, it displays yours.</td>
     </tr>
     <tr>
       <td style="text-align:left"><b><code>serverinfo</code></b>
@@ -101,12 +101,12 @@ description: Help with useful commands.
     <tr>
       <td style="text-align:left"><b><code>ping</code></b>
       </td>
-      <td style="text-align:left">Gives Watora's ping.</td>
+      <td style="text-align:left">Gives Watora&apos;s ping.</td>
     </tr>
     <tr>
       <td style="text-align:left"><b><code>invitation</code></b>
       </td>
-      <td style="text-align:left">Displays Watora's invitation links.</td>
+      <td style="text-align:left">Displays Watora&apos;s invitation links.</td>
     </tr>
     <tr>
       <td style="text-align:left"><b><code>suggestion [text]</code></b>

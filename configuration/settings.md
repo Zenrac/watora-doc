@@ -54,8 +54,7 @@ To set a welcome message you have to use `welcome`
         <p>Enables a message that will be sent to the channel when someone join the
           server. You can specify serveral text separated by a vertical bar and one
           will be randomly sent.</p>
-        <p><em></em><a href="../features/rich-commands.md"><em>This command is a Rich Command</em></a><em></em>
-        </p>
+        <p>&lt;em&gt;&lt;/em&gt;<a href="../features/rich-commands.md"><em>This command is a Rich Command</em></a>&lt;em&gt;&lt;/em&gt;</p>
       </td>
     </tr>
     <tr>
@@ -83,8 +82,7 @@ To set a goodbye message you have to use `goodbye`
         <p>Enables a message that will be sent to the channel when someone leaves
           the server. You can specify serveral text separated by a vertical bar and
           one will be randomly sent.</p>
-        <p><em></em><a href="../features/rich-commands.md"><em>This command is a Rich Command</em></a><em></em>
-        </p>
+        <p>&lt;em&gt;&lt;/em&gt;<a href="../features/rich-commands.md"><em>This command is a Rich Command</em></a>&lt;em&gt;&lt;/em&gt;</p>
       </td>
     </tr>
     <tr>
