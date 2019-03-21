@@ -109,7 +109,7 @@ To manage autoplaylists you have to use `pl`
       </td>
       <td style="text-align:left">
         <p>Upvotes an autoplaylist.</p>
-        <p>Autoplaylists with more upvotes have more visibility</p>
+        <p>Autoplaylists with more upvotes have more visibility.</p>
       </td>
     </tr>
   </tbody>
