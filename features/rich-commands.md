@@ -23,10 +23,10 @@ By writing a variable between curly brackets, you can get a real value.
 ![Here, I get my username and my avatar url](../.gitbook/assets/image%20%2814%29.png)
 
 {% hint style="info" %}
-`author.avatar_url`gives a link, as `choice`is a Rich Command, the link is hidden.
+`author.avatar_url`gives a link, and as`choice`is a Rich Command, the link is hidden.
 {% endhint %}
 
-#### Availables variables and its attributes
+#### Availables variables and their attributes
 
 {% hint style="info" %}
 in `author.name`**author** is a **variable**, and **name** an **attribute**

@@ -22,7 +22,7 @@ No, there's only one Watora for the moment.
 
 ## Can Watora be connected to several voice channel at the same time on my server ?
 
-No, as a normal discord account, bots cannot be connected to serveral voice channel at the same time on the same server.
+No, as a normal discord account, bots cannot be connected to several voice channel at the same time on the same server.
 
 ## Can I change Watora's avatar on my server ?
 
