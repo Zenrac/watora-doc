@@ -148,5 +148,12 @@ To start a blindtest you will have to use `blindtest` \(or `bt`\)
       </td>
     </tr>
   </tbody>
-</table>
+</table>## Examples
+
+**`bt mal=zenrac percentage=50,50,0 remove=ptw,dropped`**  
+Starts a blindtest from the Zenrac's MyAnimeList, with 50% of Opening and 50% of Ending, without adding the plan to watch and dropped anime of the list.  
+
+
+**`bt mal=zenrac,razmoute argument=dropped`**  
+Starts a blindtest from the Zenrac's MyAnimeList and Razmoute's MyAnimeList, adding only the dropped anime of the both lists.
 
