@@ -46,7 +46,7 @@ If he doesn't, then you may want to check your CPU and disk usage. Ensure that y
 
 #### Second, check if the issue is from Discord
 
-Are the other members/bots in the voice channels also lagging ? If yes, it can be a Discord issue. Check there isn’t a [Discord issue](https://status.discordapp.com/).
+Are the other members/bots in the voice channels also lagging ? If yes, it can be a Discord issue. Check there isn’t a [Discord issue](https://status.discordapp.com/). It's also recommended to try to change your server region in the server settings.
 
 #### Third, ask on Watora's server
 

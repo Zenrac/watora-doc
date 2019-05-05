@@ -143,12 +143,26 @@ To start a blindtest you will have to use `blindtest` \(or `bt`\)
       <td style="text-align:left">
         <p>Ignore a type (or serveral) of watched anime (separated by commas) in
           the given anime lists.</p>
-        <p><em>Accepted values: completed, watching, onhold, dropped, ptw.</em>
+        <p><em>Accepted values: completed, watching, onhold, dropped, ptw, nothing.</em>
         </p>
       </td>
     </tr>
   </tbody>
-</table>## Examples
+</table>{% hint style="info" %}
+Add your settings in a [Custom Command](custom-commands.md) to start your favorite blindtest as fast as possible.
+{% endhint %}
+
+## Points
+
+When you guess the right answer, you earn points. You can earn up to 3 points per right answer. The server's ranking can be displayed with `btrank`
+
+| Points | Accuracy |
+| :--- | :--- |
+| 1 | Normal right answer \(based on options, or synonyms...\) |
+| 2 | Answer equals the main name with the same special characters. |
+| 3 | Answer equals the main name with the same special characters, uppercase and lowercase. |
+
+## Examples
 
 **`bt mal=zenrac percentage=50,50,0 remove=ptw,dropped`**  
 Starts a blindtest from the Zenrac's MyAnimeList, with 50% of Opening and 50% of Ending, without adding the plan to watch and dropped anime of the list.  
