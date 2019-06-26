@@ -90,7 +90,7 @@ description: Help with fun commands.
     <tr>
       <td style="text-align:left"><b><code>osu (mode) [username]</code></b>
       </td>
-      <td style="text-align:left">Displays information about an osu! profile You can choose a mode, if you
+      <td style="text-align:left">Displays information about an osu! profile. You can choose a mode. If you
         don&apos;t specify any mode, standard is choosen.
         <br /><em>Mode list : Standard, Taiko, Ctb, Mania</em>
       </td>
