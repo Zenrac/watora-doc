@@ -1,14 +1,14 @@
 ---
-description: Everything you must know about how to set and use Watora's blindtest.
+description: Everything you need to know about how to setup and use Watora's blindtest.
 ---
 
 # Blindtest
 
 ## Introduction
 
-A blindtest is a game where you have to guess the name of the playing song. With Watora you can play this famous game on Discord by starting a blindtest game and directly sending the name of the song on your channel. It's easy and highly configurable.
+A blindtest is a game where you have to guess the name of the song that’s currently playing. With Watora you can play this famous game on Discord by starting a blindtest game and directly sending the song title to your channel. It's easy and highly configurable.
 
-## Start a blindtest
+## Starting a blindtest
 
 To start a blindtest you will have to use `blindtest` \(or `bt`\)
 
@@ -23,7 +23,7 @@ To start a blindtest you will have to use `blindtest` \(or `bt`\)
     <tr>
       <td style="text-align:left"><b><code>blindtest anime (other_options)</code></b>
       </td>
-      <td style="text-align:left">Allows to start a blindtest with the most popular anime songs.</td>
+      <td style="text-align:left">Starts a blindtest with the most popular anime songs.</td>
     </tr>
     <tr>
       <td style="text-align:left">
@@ -33,7 +33,7 @@ To start a blindtest you will have to use `blindtest` \(or `bt`\)
         </p>
       </td>
       <td style="text-align:left">
-        <p>Allows to start a blindtest with the animes from the usernames MyAnimeList.</p>
+        <p>Start a blindtest with the anime from the username’s MyAnimeList.</p>
         <p>You can load several anime lists at once by separating usernames with
           commas.</p>
       </td>
@@ -41,16 +41,16 @@ To start a blindtest you will have to use `blindtest` \(or `bt`\)
     <tr>
       <td style="text-align:left"><b><code>blindtest autoplaylist=name (other_options)</code></b>
       </td>
-      <td style="text-align:left">Allows to start a blindtest with the songs of an autoplaylist.</td>
+      <td style="text-align:left">Starts a blindtest with the songs of an autoplaylist.</td>
     </tr>
     <tr>
       <td style="text-align:left"><b><code>blindtest difficulty=[0-6] (other_options)</code></b>
       </td>
       <td style="text-align:left">
-        <p>Allows to start a blindtest with the MyAnimeList top animes from 1 to
-          difficulty*200.
+        <p>Start a blindtest using the MyAnimeList top listed anime and set a 
+          difficulty level.
           <br />Value must be between 0 and 6.</p>
-        <p>Difficulty 0 starts everything (as<code>bt anime</code>)</p>
+        <p>Difficulty 0 uses the same list as <code>bt anime</code></p>
         <p><em>Example: difficulty 3 means that all anime in MyAnimeList top from 1 to 600 are loaded.</em>
         </p>
       </td>
@@ -84,7 +84,7 @@ To start a blindtest you will have to use `blindtest` \(or `bt`\)
       <td style="text-align:left"><code>false</code>
       </td>
       <td style="text-align:left">
-        <p>Do not accept answers, remove the timeout, just listen the songs.</p>
+        <p>Do not accept answers, remove the timeout, and just listen to the songs.</p>
         <p><em>Accepted values: true or false</em>
         </p>
       </td>
@@ -104,7 +104,7 @@ To start a blindtest you will have to use `blindtest` \(or `bt`\)
       <td style="text-align:left"><code>100</code>
       </td>
       <td style="text-align:left">
-        <p>Severity in percentage of word to accept an answer.</p>
+        <p>Degree of match between answer and title.</p>
         <p><em>Value must be between 1 and 100%</em>
         </p>
       </td>
@@ -159,15 +159,15 @@ When you guess the right answer, you earn points. You can earn up to 3 points pe
 | Points | Accuracy |
 | :--- | :--- |
 | 1 | Normal right answer \(based on options, or synonyms...\) |
-| 2 | Answer equals the main name with the same special characters. |
-| 3 | Answer equals the main name with the same special characters, uppercase and lowercase. |
+| 2 | Answer matched the main name with the same special characters. |
+| 3 | Answer matches the main name with the same special characters, uppercase and lowercase. |
 
 ## Examples
 
 **`bt mal=zenrac percentage=50,50,0 remove=ptw,dropped`**  
-Starts a blindtest from the Zenrac's MyAnimeList, with 50% of Opening and 50% of Ending, without adding the plan to watch and dropped anime of the list.  
+Starts a blindtest from Zenrac's MyAnimeList, with 50% of Opening and 50% of Ending, without adding the “plan to watch” and “dropped anime” from the list.  
 
 
 **`bt mal=zenrac,razmoute argument=dropped`**  
-Starts a blindtest from the Zenrac's MyAnimeList and Razmoute's MyAnimeList, adding only the dropped anime of the both lists.
+Starts a blindtest from Zenrac's MyAnimeList and Razmoute's MyAnimeList, adding only the dropped anime from both lists.
 
