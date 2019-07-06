@@ -104,7 +104,7 @@ To start a blindtest you will have to use `blindtest` \(or `bt`\)
       <td style="text-align:left"><code>100</code>
       </td>
       <td style="text-align:left">
-        <p>Degree of match between answer and title.</p>
+        <p>Determines the necessary degree of match between answer and title.</p>
         <p><em>Value must be between 1 and 100%</em>
         </p>
       </td>
@@ -114,7 +114,7 @@ To start a blindtest you will have to use `blindtest` \(or `bt`\)
       </td>
       <td style="text-align:left"><code>100,0,0</code>
       </td>
-      <td style="text-align:left">Percentage of OP, ED, OST.
+      <td style="text-align:left">Determines percentage of anime song type (i.e. OP, ED, OST.)
         <br /><em>The sum of all values should be 100.</em>
       </td>
     </tr>
