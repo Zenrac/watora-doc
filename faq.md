@@ -4,7 +4,7 @@ description: Frequently asked questions about Watora.
 
 # FAQ
 
-## How to use Autoplaylists ?
+## How do I use Autoplaylists ?
 
 Autoplaylists are one of Watora's biggest features. Many people don't understand how to use them. That's why I made a whole page about them. You can check out [how to use autoplaylists here.](features/autoplaylists.md)
 
