@@ -14,7 +14,7 @@ You have to use CustomCommands. You can do a lot of things with CustomCommands, 
 
 ## Is Watora from an anime ?
 
-No, it's an OC \(original character\) drawn by Peko.
+No, it's an OC \(original character\) drawn by Peko. 
 
 ## Can I have two Watora on my server ?
 
@@ -31,7 +31,7 @@ Moreover, Discord doesn’t allow for users or bots to have a different profile 
 
 ## How and where Watora is hosted ?
 
-Currently Watora is in two locations : Dallas and Paris.  
+Currently Watora is in two locations : Dallas and Paris.   
 The best server is selected according to your server's region.  
 Watora is hosted on Vultr and its refer link to get $50 free credits is [here](https://www.vultr.com/?ref=7945986-4F).
 
@@ -39,16 +39,18 @@ Watora is hosted on Vultr and its refer link to get $50 free credits is [here](h
 
 It depends, it can happen but the answer is mostly not.
 
-### First, check if the issue is in your side
+#### First, check if the issue is in your side
 
 Ask someone if he has the same lags at the same time than yours.  
-If he doesn't, then you may want to check your CPU and disk usage. Ensure that you have enough bandwidth too. Maybe check your voice channel’s bitrate \(right click and edit channel\).
+If he doesn't, then you may want to check your CPU and disk usage. Ensure that you have enough bandwidth too. Maybe check your voice channel’s bitrate \(right click and edit channel\). 
 
-### Second, check if the issue is from Discord
+#### Second, check if the issue is from Discord
 
 Are the other members/bots in the voice channels also lagging ? If yes, it can be a Discord issue. Check there isn’t a [Discord issue](https://status.discordapp.com/). It's also recommended to try to change your server region in the server settings.
 
-### Third, ask on Watora's server
+#### Third, ask on Watora's server
 
 Maybe there's another issue, do not hesitate to contact our team on the [support server](https://discord.gg/ArJgTpM).
+
+#### 
 

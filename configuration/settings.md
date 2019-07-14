@@ -18,7 +18,7 @@ Discord auto-deletes your useless spaces at the end of your messages.
 You have to litteraly write square brackets`[]`in your new prefix to keep your spaces.
 {% endhint %}
 
-To set a custom prefix you have to use**`prefix`**
+To set a custom prefix you have to use`prefix`
 
 | Usage | Help |
 | :--- | :--- |
@@ -28,7 +28,7 @@ To set a custom prefix you have to use**`prefix`**
 
 ### Set a custom language
 
-To set a custom language you have to use **`language`**
+To set a custom language you have to use `language`
 
 | Usage | Help |
 | :--- | :--- |
@@ -37,7 +37,7 @@ To set a custom language you have to use **`language`**
 
 ### Set a Welcome message
 
-To set a welcome message you have to use **`welcome`**
+To set a welcome message you have to use `welcome`
 
 <table>
   <thead>
@@ -65,7 +65,7 @@ To set a welcome message you have to use **`welcome`**
   </tbody>
 </table>### Set a Goodbye message
 
-To set a goodbye message you have to use **`goodbye`**
+To set a goodbye message you have to use `goodbye`
 
 <table>
   <thead>
@@ -97,7 +97,7 @@ To set a goodbye message you have to use **`goodbye`**
 Auto roles are given when an use join the server.
 {% endhint %}
 
-To set one or several auto roles you have to use **`autorole`**
+To set one or several auto roles you have to use `autorole`
 
 | Usage | Help |
 | :--- | :--- |
@@ -111,7 +111,7 @@ To set one or several auto roles you have to use **`autorole`**
 This command converts Watora's answers to OwO language.
 {% endhint %}
 
-To enable Watora's OwO mod you have to use **`owo`**
+To enable Watora's OwO mod you have to use `owo`
 
 | Usage | Help |
 | :--- | :--- |
@@ -130,7 +130,7 @@ Member with a DJ role can uses every musical commands.
 A role called DJ grants DJ permissions.
 {% endhint %}
 
-To set a DJ role you have to use **`setdj`** to learn more things about DJ permissions, take a look to this.
+To set a DJ role you have to use `setdj` to learn more things about DJ permissions, take a look to this.
 
 | Usage | Help |
 | :--- | :--- |
@@ -145,7 +145,7 @@ To set a DJ role you have to use **`setdj`** to learn more things about DJ permi
 Each time Watora disconnects herself from a voice channel, the player volume is reset to the default volume \(by default, 50%\).
 {% endhint %}
 
-To set a custom default volume you have to use **`defvolume`**
+To set a custom default volume you have to use `defvolume`
 
 | Usage | Help |
 | :--- | :--- |
@@ -159,7 +159,7 @@ To set a custom default volume you have to use **`defvolume`**
 By default, Watora's auto-disconnects herself from the voice channel if she's alone or not playing anything since an autoleave time \(by default 3 minutes\).
 {% endhint %}
 
-To set a custom autoleave time you have to use **`autoleave`**
+To set a custom autoleave time you have to use `autoleave`
 
 | Usage | Help |
 | :--- | :--- |
@@ -174,7 +174,7 @@ To set a custom autoleave time you have to use **`autoleave`**
 By default, an auto now playing message is sent when a new song starts. It's sent in the same channel than where you called Watora.
 {% endhint %}
 
-To set a custom channel for Now Playing or to disable them you have to use **`npmsg`**
+To set a custom channel for Now Playing or to disable them you have to use `npmsg`
 
 | Usage | Help |
 | :--- | :--- |
@@ -199,7 +199,7 @@ Some commands such as `skip, leave` or `clear` can require vote if the author do
 Only `skip, volume, pause, repeat, replay, previousnow, shuffle, stop` are available with reactions.
 {% endhint %}
 
-To use music commands with reaction you have to enable the lazy mod by using **`lazy`**
+To use music commands with reaction you have to enable the lazy mod by using `lazy`
 
 | Usage | Help |
 | :--- | :--- |
@@ -209,56 +209,11 @@ To use music commands with reaction you have to enable the lazy mod by using **`
 
 ### How to autoplay related songs when the queue is empty
 
-To enables this feature, you have to enable the autoplay setting, by using **`autoplay`**
+To enables this feature, you have to enable the autoplay setting, by using `autoplay`
 
 | Usage | Help |
 | :--- | :--- |
 | **`autoplay`** | Enables or disables the autoplay of recommended song when the queue is empty.  _Only available with YouTube links._ |
 
-### How to autoconnect Watora when someone join a voice channel
 
-You can autoconnect Watora by using **`autoconnect`**
-
-<table>
-  <thead>
-    <tr>
-      <th style="text-align:left">Usage</th>
-      <th style="text-align:left">Help</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><b><code>autoconnect</code></b>
-      </td>
-      <td style="text-align:left">Manages autoconnect channels.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b><code>autoconnect add [VoiceChannel] [query|URL]</code></b>
-      </td>
-      <td style="text-align:left">
-        <p>Allows to add channels on which Watora will autoconnect herself when someone
-          joins it. You can specify either an URL, query, an autoplaylist or a radio.</p>
-        <p><em>If nothing specified, it only join the channel.</em>
-        </p>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b><code>autoconnect remove [VoiceChannel]</code></b>
-      </td>
-      <td style="text-align:left">Removes a channel from the autoconnect channels of the server.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b><code>autoconnect list</code></b>
-      </td>
-      <td style="text-align:left">Displays the list of the current autoconnect channels on the server.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b><code>autoconnect reset</code></b>
-      </td>
-      <td style="text-align:left">Resets all my autoconnect channels on this server.</td>
-    </tr>
-  </tbody>
-</table>{% hint style="info" %}
-VoiceChannel is either the name of the Voice Channel or its ID. If the Voice Channel name is in two words or more, quote it. \(eg: **`autoconnect add "Cool VoiceChannel")`**
-{% endhint %}
 
