@@ -11,8 +11,8 @@ description: Help with fun commands.
 
 * Parameters between parenthesis are optional.
 * Parameters between square brackets are required.
-* Parameters separated by vertical bars mean that you must choose one of them. 
-* Any characters outside of parenthesis or brackets must be written.
+* Parameters separated by vertical bars means that you have to choose one of them. 
+* Any characters outside parenthesis and brackets are supposed to be written.
 {% endhint %}
 
 <table>
@@ -27,7 +27,7 @@ description: Help with fun commands.
       <td style="text-align:left"><b><code>minesweeper (level|rows) (cols) (bombs)</code></b>
       </td>
       <td style="text-align:left">
-        <p>Starts a minesweeper game using Discord’s spoiler feature.</p>
+        <p>Starts a minesweeper game using the spoiler feature of Discord.</p>
         <p><em>Available levels: beginner, intermediate, expert</em>
         </p>
       </td>
@@ -58,7 +58,7 @@ description: Help with fun commands.
       <td style="text-align:left"><b><code>me</code></b>
       </td>
       <td style="text-align:left">
-        <p>Allows you to talk as Watora.</p>
+        <p>Allows to talk as Watora.</p>
         <p>&lt;em&gt;&lt;/em&gt;<a href="../features/rich-commands.md"><em>This command is a Rich Command</em></a>&lt;em&gt;&lt;/em&gt;</p>
       </td>
     </tr>
@@ -90,7 +90,7 @@ description: Help with fun commands.
     <tr>
       <td style="text-align:left"><b><code>osu (mode) [username]</code></b>
       </td>
-      <td style="text-align:left">Displays information about an osu! profile. You can choose a mode. If you
+      <td style="text-align:left">Displays information about an osu! profile You can choose a mode, if you
         don&apos;t specify any mode, standard is choosen.
         <br /><em>Mode list : Standard, Taiko, Ctb, Mania</em>
       </td>

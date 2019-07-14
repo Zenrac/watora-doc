@@ -1,12 +1,12 @@
 ---
-description: This document explains what rich commands are and how they differ from basic commands.
+description: Explains what is a rich command. And her differences with a basic command.
 ---
 
 # Rich Commands
 
 ## Rich Commands Attributes
 
-Rich commands are a useful part of Watora's commands which create unlimited possibilities.
+Rich commands are an useful part of Watora's commands, which create unlimited possibilities.
 
 ### Image URLs are automatically hidden
 
@@ -16,17 +16,17 @@ Rich commands are a useful part of Watora's commands which create unlimited poss
 You can use this feature to create cool custom commands or welcome messages
 {% endhint %}
 
-### Variables
+### There are variables
 
 By writing a variable between curly brackets, you can get a real value.
 
 ![Here, I get my username and my avatar url](../.gitbook/assets/image%20%2814%29.png)
 
 {% hint style="info" %}
-`author.avatar_url`gives a link and, because`choice`is a Rich Command, the link is hidden.
+`author.avatar_url`gives a link, and as`choice`is a Rich Command, the link is hidden.
 {% endhint %}
 
-#### Available variables and their attributes
+#### Availables variables and their attributes
 
 {% hint style="info" %}
 in `author.name`**author** is a **variable**, and **name** an **attribute**
@@ -213,14 +213,14 @@ in `author.name`**author** is a **variable**, and **name** an **attribute**
 `random_member`is a random member taken from the current guild.
 {% endhint %}
 
-#### Variables without attributes
+#### Variable without attributes
 
 | Variable | Documentation |
 | :--- | :--- |
 | **`day`** | Returns the current day's number. |
 | **`month`** | Returns the current month's number. |
 | **`year`** | Returns the current year's number. |
-| **`server_members`** | Returns the number of members in the current guild. |
+| **`server_members`** | Returns the number of member in the current guild. |
 
 **Example :**
 
@@ -247,14 +247,14 @@ in `author.name`**author** is a **variable**, and **name** an **attribute**
     </tr>
   </tbody>
 </table>{% hint style="info" %}
-Using `{~}` does the same thing as using`{0~100}`
+Using `{~}` do the same thing than using`{0~100}`
 {% endhint %}
 
 **Example :**
 
 ![](../.gitbook/assets/image%20%2815%29.png)
 
-### Command Calls
+### You can call a command
 
 By using `>>>`you can specify that the following word is a command.
 
@@ -264,20 +264,20 @@ By using `>>>`you can specify that the following word is a command.
 
 ###  **You can even call several commands**
 
-By adding `&&`between your commands, you can call several commands at the same time.
+By adding `&&`between your commands, you can start several commands at the same time.
 
 {% hint style="info" %}
-Well they’re not exactly simultaneous. The commands are called in order, starting from the first one.
+It's not exactly at the same time, commands are started in order, starting from the beginning.
 {% endhint %}
 
 **Example :**
 
-![Calling both commands](../.gitbook/assets/image%20%2811%29.png)
+![Doing both commands](../.gitbook/assets/image%20%2811%29.png)
 
 ## What's the point of Rich Commands ?
 
 * Custom Commands are [Rich Commands](rich-commands.md).
 * Welcome and Goodbye messages are [Rich Commands](rich-commands.md).
-* You can call a command in a Custom Command. See [Custom Commands page](custom-commands.md) to get started.
+* You can call a command in Custom Command, see [Custom Commands page](custom-commands.md) to get started.
 * You can even mix several commands into one [Custom Command.](custom-commands.md)
 
