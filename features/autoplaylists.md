@@ -12,107 +12,99 @@ Autoplaylists are one of the most important feature of Watora, it allows to auto
 
 To manage autoplaylists you have to use `pl`
 
+| Usage | Help |
+| :--- | :--- |
+
+
+| **`pl (start) (autoplaylist)`** | Starts an autoplaylists. _If you don't specify an autoplaylist it loads your_ [_personal autoplaylists._](autoplaylists.md#personal-autoplaylist)&lt;em&gt;&lt;/em&gt; |
+| :--- | :--- |
+
+
+| **`pl new [autoplaylist]`** | Creates a new autoplaylist with the specified name. |
+| :--- | :--- |
+
+
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Usage</th>
-      <th style="text-align:left">Help</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><b><code>pl (start) (autoplaylist)</code></b>
-      </td>
-      <td style="text-align:left">Starts an autoplaylists.
-        <br /><em>If you don&apos;t specify an autoplaylist it loads your </em><a href="autoplaylists.md#personal-autoplaylist"><em>personal autoplaylists.</em></a>&lt;em&gt;&lt;/em&gt;</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b><code>pl new [autoplaylist]</code></b>
-      </td>
-      <td style="text-align:left">Creates a new autoplaylist with the specified name.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b><code>pl add (keywords|URL|current_queue)</code></b>
-      </td>
-      <td style="text-align:left">
+      <th style="text-align:left"><b><code>pl add (keywords|URL|current_queue)</code></b>
+      </th>
+      <th style="text-align:left">
         <p>Adds a song to the current autoplaylist.
           <br /><em>If you don&apos;t specify an URL nor keywords, adds the current song to the autoplaylist.</em>
         </p>
         <p><em>You can write current_queue to add the whole current queue to the autoplaylist.</em>
         </p>
-      </td>
+      </th>
     </tr>
+  </thead>
+  <tbody></tbody>
+</table>| **`pl remove (keywords|URL)`** | Removes a song to the current autoplaylist. _If you don't specify an URL nor keywords, removes the current song from the autoplaylist._ |
+| :--- | :--- |
+
+
+| **`pl now`** | Displays the current autoplaylist. |
+| :--- | :--- |
+
+
+| **`pl off`** | Disables the current autoplaylist. |
+| :--- | :--- |
+
+
+| **`pl repair (autoplaylist)`** | Repairs an autoplaylist. _If you don't specify one, repairs the current autoplaylist._ |
+| :--- | :--- |
+
+
+| **`pl info (autoplaylist)`** | Gives information about an autoplaylist. _If you don't specify one, about the current autoplaylist._ |
+| :--- | :--- |
+
+
+| **`pl clear (autoplaylist)`** | Deletes an autoplaylist and all of its content. _Warning : This operation cannot be undone._ |
+| :--- | :--- |
+
+
+<table>
+  <thead>
     <tr>
-      <td style="text-align:left"><b><code>pl remove (keywords|URL)</code></b>
-      </td>
-      <td style="text-align:left">Removes a song to the current autoplaylist.
-        <br /><em>If you don&apos;t specify an URL nor keywords, removes the current song from the autoplaylist.</em>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b><code>pl now</code></b>
-      </td>
-      <td style="text-align:left">Displays the current autoplaylist.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b><code>pl off</code></b>
-      </td>
-      <td style="text-align:left">Disables the current autoplaylist.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b><code>pl repair (autoplaylist)</code></b>
-      </td>
-      <td style="text-align:left">Repairs an autoplaylist.
-        <br /><em>If you don&apos;t specify one, repairs the current autoplaylist.</em>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b><code>pl info (autoplaylist)</code></b>
-      </td>
-      <td style="text-align:left">Gives information about an autoplaylist.
-        <br /><em>If you don&apos;t specify one, about the current autoplaylist.</em>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b><code>pl clear (autoplaylist)</code></b>
-      </td>
-      <td style="text-align:left">Deletes an autoplaylist and all of its content.
-        <br /><em>Warning : This operation cannot be undone.</em>
-      </td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b><code>pl clone (autoplaylist)</code></b>
-      </td>
-      <td style="text-align:left">
+      <th style="text-align:left"><b><code>pl clone (autoplaylist)</code></b>
+      </th>
+      <th style="text-align:left">
         <p>Creates an autoplaylist by copying an existing autoplaylist.</p>
         <p><em>If you don&apos;t specify one, clones the current autoplaylist.</em>
         </p>
-      </td>
+      </th>
     </tr>
+  </thead>
+  <tbody></tbody>
+</table><table>
+  <thead>
     <tr>
-      <td style="text-align:left"><b><code>pl settings (autoplaylist) <br />(--edit [private|shuffle<br />|whitelist|description| avatar])</code></b>
-      </td>
-      <td style="text-align:left">
+      <th style="text-align:left"><b><code>pl settings (autoplaylist)<br />(--edit [private|shuffle<br />|whitelist|description| avatar])</code></b>
+      </th>
+      <th style="text-align:left">
         <p>Displays information about an autoplaylist or edits its settings.</p>
-        <p><em>See </em><a href="autoplaylists.md#autoplaylist-permissions"><em>Autoplaylist permissions </em></a><em>for more information.</em>
+        <p><em>See</em>  <a href="autoplaylists.md#autoplaylist-permissions"><em>Autoplaylist permissions</em></a>  <em>for more information.</em>
         </p>
-      </td>
+      </th>
     </tr>
+  </thead>
+  <tbody></tbody>
+</table>| **`pl find (query)`** | Searches for an autoplaylist sorted by upvote. You can specify a query to accurate your search. |
+| :--- | :--- |
+
+
+<table>
+  <thead>
     <tr>
-      <td style="text-align:left"><b><code>pl find (query)</code></b>
-      </td>
-      <td style="text-align:left">Searches for an autoplaylist sorted by upvote.
-        <br />You can specify a query to accurate your search.</td>
-    </tr>
-    <tr>
-      <td style="text-align:left"><b><code>pl upvote (autoplaylist)</code></b>
-      </td>
-      <td style="text-align:left">
+      <th style="text-align:left"><b><code>pl upvote (autoplaylist)</code></b>
+      </th>
+      <th style="text-align:left">
         <p>Upvotes an autoplaylist.</p>
         <p>Autoplaylists with more upvotes have more visibility.</p>
-      </td>
+      </th>
     </tr>
-  </tbody>
+  </thead>
+  <tbody></tbody>
 </table>{% hint style="info" %}
 You can use `pl`instead of `pl start`
 {% endhint %}
@@ -124,7 +116,7 @@ You can use `pl`instead of `pl start`
 
 ## Types of Autoplaylist
 
-Basically there are two types of Autoplaylists. 
+Basically there are two types of Autoplaylists.
 
 ### Basic Autoplaylist
 
@@ -152,39 +144,41 @@ It also means that `(autoplaylist)` in commands becomes `(user_mention)`.
 
 ### Editing Autoplaylists
 
+| Usage | Help |
+| :--- | :--- |
+
+
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Usage</th>
-      <th style="text-align:left">Help</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><b><code>pl set (autoplaylist) --edit private (True|False)</code></b>
-      </td>
-      <td style="text-align:left">
+      <th style="text-align:left"><b><code>pl set (autoplaylist) --edit private (True|False)</code></b>
+      </th>
+      <th style="text-align:left">
         <p>Manages if the autoplaylist is private or not.</p>
         <p><em>If no value is specified, invert the current value.</em>
         </p>
-      </td>
+      </th>
     </tr>
+  </thead>
+  <tbody></tbody>
+</table><table>
+  <thead>
     <tr>
-      <td style="text-align:left"><b><code>pl set (autoplaylist) --edit shuffle (True|False)</code></b>
-      </td>
-      <td style="text-align:left">
+      <th style="text-align:left"><b><code>pl set (autoplaylist) --edit shuffle (True|False)</code></b>
+      </th>
+      <th style="text-align:left">
         <p>Manages if the autoplaylist is auto shuffled when playing or not.</p>
         <p><em>If no value is specified, invert the current value.</em>
         </p>
-      </td>
+      </th>
     </tr>
-    <tr>
-      <td style="text-align:left"><b><code>pl set (autoplaylist) --edit whitelist (+|-) [user]</code></b>
-      </td>
-      <td style="text-align:left">Edits the Whitelist to chose who can edit the autoplaylist.</td>
-    </tr>
-  </tbody>
-</table>{% hint style="info" %}
+  </thead>
+  <tbody></tbody>
+</table>| **`pl set (autoplaylist) --edit whitelist (+|-) [user]`** | Edits the Whitelist to chose who can edit the autoplaylist. |
+| :--- | :--- |
+
+
+{% hint style="info" %}
 You can use`pl set`as an alias for `pl settings`
 {% endhint %}
 
@@ -247,13 +241,11 @@ Defines if songs are randomly played, or if the autoplaylist should be read in o
 
 ### How to tell the autoplaylist to start a song at a specified time
 
-By adding **`?t=SECONDS`** __at the end of your url when adding the song \(it also works with the play command\).
+By adding **`?t=SECONDS`** \_\_at the end of your url when adding the song \(it also works with the play command\).
 
 {% hint style="info" %}
-**Exemples:**   
-**pl add** [**https://youtu.be/UQpRzyNXDBg?t=120**](https://youtu.be/UQpRzyNXDBg?t=120) **``**  
+**Exemples:**  
+**pl add** [**https://youtu.be/UQpRzyNXDBg?t=120**](https://youtu.be/UQpRzyNXDBg?t=120) **\`\`**  
 **pl add** [**https://soundcloud.com/user-345751583/opening-recreator-full-gravity-wall?t=60**](https://soundcloud.com/user-345751583/opening-recreator-full-gravity-wall?t=60)\*\*\*\*
 {% endhint %}
-
-
 

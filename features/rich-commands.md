@@ -32,18 +32,16 @@ By writing a variable between curly brackets, you can get a real value.
 in `author.name`**author** is a **variable**, and **name** an **attribute**
 {% endhint %}
 
+| Variable | Attributes |
+| :--- | :--- |
+
+
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Variable</th>
-      <th style="text-align:left">Attributes</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><b><code>message</code></b>
-      </td>
-      <td style="text-align:left">
+      <th style="text-align:left"><b><code>message</code></b>
+      </th>
+      <th style="text-align:left">
         <p><a href="https://discordpy.readthedocs.io/en/rewrite/api.html#discord.Message.attachments">attachments</a>
         </p>
         <p><a href="https://discordpy.readthedocs.io/en/rewrite/api.html#discord.Message.author">author</a>
@@ -64,10 +62,14 @@ in `author.name`**author** is a **variable**, and **name** an **attribute**
         </p>
         <p><a href="https://discordpy.readthedocs.io/en/rewrite/api.html#discord.Message.tts">tts</a>
         </p>
-      </td>
+      </th>
     </tr>
+  </thead>
+  <tbody></tbody>
+</table><table>
+  <thead>
     <tr>
-      <td style="text-align:left">
+      <th style="text-align:left">
         <p><b><code>author</code></b>
         </p>
         <p><b><code>user</code></b>
@@ -76,8 +78,8 @@ in `author.name`**author** is a **variable**, and **name** an **attribute**
         </p>
         <p><b><code>random_member</code></b>
         </p>
-      </td>
-      <td style="text-align:left">
+      </th>
+      <th style="text-align:left">
         <p><a href="https://discordpy.readthedocs.io/en/rewrite/api.html#discord.Member.voice">voice</a>
           <br
           /><a href="https://discordpy.readthedocs.io/en/rewrite/api.html#discord.Member.color">color</a>
@@ -112,12 +114,16 @@ in `author.name`**author** is a **variable**, and **name** an **attribute**
         </p>
         <p><a href="https://discordpy.readthedocs.io/en/rewrite/api.html#discord.Member.status">status</a>
         </p>
-      </td>
+      </th>
     </tr>
+  </thead>
+  <tbody></tbody>
+</table><table>
+  <thead>
     <tr>
-      <td style="text-align:left"><b><code>channel</code></b>
-      </td>
-      <td style="text-align:left">
+      <th style="text-align:left"><b><code>channel</code></b>
+      </th>
+      <th style="text-align:left">
         <p><a href="https://discordpy.readthedocs.io/en/rewrite/api.html#discord.TextChannel.is_nsfw">nsfw</a>
         </p>
         <p><a href="https://discordpy.readthedocs.io/en/rewrite/api.html#discord.TextChannel.members">members</a>
@@ -136,16 +142,20 @@ in `author.name`**author** is a **variable**, and **name** an **attribute**
         </p>
         <p><a href="https://discordpy.readthedocs.io/en/rewrite/api.html#discord.TextChannel.position">position</a>
         </p>
-      </td>
+      </th>
     </tr>
+  </thead>
+  <tbody></tbody>
+</table><table>
+  <thead>
     <tr>
-      <td style="text-align:left">
+      <th style="text-align:left">
         <p><b><code>guild</code></b>
         </p>
         <p><b><code>server</code></b>
         </p>
-      </td>
-      <td style="text-align:left">
+      </th>
+      <th style="text-align:left">
         <p><a href="https://discordpy.readthedocs.io/en/rewrite/api.html#discord.Guild.name">name</a>
         </p>
         <p><a href="https://discordpy.readthedocs.io/en/rewrite/api.html#discord.Guild.afk_timeout">afk_timeout</a>
@@ -176,12 +186,16 @@ in `author.name`**author** is a **variable**, and **name** an **attribute**
         </p>
         <p><a href="https://discordpy.readthedocs.io/en/rewrite/api.html#discord.Guild.created_at">created_at</a>
         </p>
-      </td>
+      </th>
     </tr>
+  </thead>
+  <tbody></tbody>
+</table><table>
+  <thead>
     <tr>
-      <td style="text-align:left"><b><code>current</code></b>
-      </td>
-      <td style="text-align:left">
+      <th style="text-align:left"><b><code>current</code></b>
+      </th>
+      <th style="text-align:left">
         <p><a href="https://github.com/Devoxin/Lavalink.py/blob/master/lavalink/AudioTrack.py">artwork</a>
         </p>
         <p><a href="https://github.com/Devoxin/Lavalink.py/blob/master/lavalink/AudioTrack.py">author</a>
@@ -202,9 +216,10 @@ in `author.name`**author** is a **variable**, and **name** an **attribute**
         </p>
         <p><a href="https://github.com/Devoxin/Lavalink.py/blob/master/lavalink/AudioTrack.py">uri</a>
         </p>
-      </td>
+      </th>
     </tr>
-  </tbody>
+  </thead>
+  <tbody></tbody>
 </table>{% hint style="warning" %}
 `current`only works if there's a current song.
 {% endhint %}
@@ -228,24 +243,23 @@ in `author.name`**author** is a **variable**, and **name** an **attribute**
 
 #### Specials
 
+| Number | Documentation |
+| :--- | :--- |
+
+
 <table>
   <thead>
     <tr>
-      <th style="text-align:left">Number</th>
-      <th style="text-align:left">Documentation</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td style="text-align:left"><b><code>(nb1)~(nb2)</code></b>
-      </td>
-      <td style="text-align:left">
+      <th style="text-align:left"><b><code>(nb1)~(nb2)</code></b>
+      </th>
+      <th style="text-align:left">
         <p>Generates a random number between nb1 and nb2.</p>
         <p><em>If not specified, nb1 is 0, and nb2 is 100.</em>
         </p>
-      </td>
+      </th>
     </tr>
-  </tbody>
+  </thead>
+  <tbody></tbody>
 </table>{% hint style="info" %}
 Using `{~}` do the same thing than using`{0~100}`
 {% endhint %}
@@ -262,7 +276,7 @@ By using `>>>`you can specify that the following word is a command.
 
 ![The choice command chosen to start the flip command](../.gitbook/assets/image%20%284%29.png)
 
-###  **You can even call several commands**
+### **You can even call several commands**
 
 By adding `&&`between your commands, you can start several commands at the same time.
 

@@ -17,9 +17,9 @@ To manage custom commands on your server you have to use `customcommand` \(or `c
 
 | Usage | Help |
 | :--- | :--- |
-| **`cc add [command] [content]`** | Allows to add a custom command on the server.  |
-| **`cc edit [command] [content]`** | Allows to edit a custom command on the server.  |
-| **`cc delete [command]`** | Allows to remove a custom command from the server.  |
+| **`cc add [command] [content]`** | Allows to add a custom command on the server. |
+| **`cc edit [command] [content]`** | Allows to edit a custom command on the server. |
+| **`cc delete [command]`** | Allows to remove a custom command from the server. |
 | **`cc list`** | Displays the custom commands list. |
 | **`cc raw [command]`** | Displays the real content of a custom command. |
 
@@ -34,7 +34,7 @@ To create an alias you can use the fact that [you can call a command](rich-comma
 ![The letter k is now an allias for roll](../.gitbook/assets/image%20%282%29.png)
 
 {% hint style="info" %}
-When creating the custom command, you can specify a static parameter for the command, for example`>>>roll 10`will call `roll 10`when using`k` 
+When creating the custom command, you can specify a static parameter for the command, for example`>>>roll 10`will call `roll 10`when using`k`
 {% endhint %}
 
 ### Commands which doesn't need any parameter
@@ -68,9 +68,9 @@ If you don't want a static parameter, you can ask the user to give one.
 | ... | ... |
 
 {% hint style="info" %}
-Using quotations between a group of words allows to get several words instead of taking one by one word.  
-  
-**Example :**   
+Using quotations between a group of words allows to get several words instead of taking one by one word.
+
+**Example :**  
 `cmd "This is a test" Hello "Help please"`  
 {1} = This is a test  
 {2} = Hello  
@@ -95,7 +95,7 @@ You can set a default value when failing to catch a value.
 
 ### Others
 
-#### You can select several parameters based on their index. 
+#### You can select several parameters based on their index.
 
 **Example :**
 
