@@ -4,6 +4,10 @@ description: Frequently asked questions about Watora.
 
 # FAQ
 
+## What is Watora's default prefix ?
+
+#### It's `=`.
+
 ## How to use Autoplaylists ?
 
 Autoplaylists are one of Watora's biggest features. Many people don't understand how to use them. That's why I made a whole page about them. You can check out [how to use autoplaylists here.](features/autoplaylists.md)
@@ -51,6 +55,4 @@ Are the other members/bots in the voice channels also lagging ? If yes, it can b
 #### Third, ask for help on Watora's support server
 
 Maybe there's another issue. Do not hesitate to contact our team on the [support server](https://discord.gg/ArJgTpM).
-
-#### 
 
