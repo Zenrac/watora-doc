@@ -4,7 +4,7 @@ description: >-
   local files), you can self host Watora's music.
 ---
 
-# Self hosting
+# Self Hosting
 
 ## Requirements
 
