@@ -37,7 +37,6 @@ Moreover, Discord doesn’t allow for users or bots to have a different profile 
 
 Currently Watora is in two locations : Dallas and Paris.   
 The best server is selected according to your server's region.  
-Watora can also be hosted on your computer, see [Self Hosting](features/self-hosting.md).  
 Watora is hosted on Vultr and its refer link to get $50 free credits is [here](https://www.vultr.com/?ref=7945986-4F).
 
 ## Is Watora lagging ?

@@ -15,12 +15,12 @@ Download ****[Watora\_Server.zip](https://drive.google.com/open?id=10F0Bpy4xaptO
 
 ### **Extract `Watora_Server.rar` somewhere, and open the extracted folder**
 
-**This folder should contain 3 files.**
+This folder should contain 3 files.
 
 ### **Edit `application.yml` with a text editor**
 
-Set an opened port at line 2  
-****Set a password at line 5
+Set an opened port at line 2.  
+****Set a password at line 5.
 
 ### **Start `launcher.bat`**
 
@@ -33,5 +33,5 @@ She'll need to know your IP, your port and the password you have chosen in order
 ## **Bonus**
 
 If you want to play local files, you can set local at line 17 to true in `application.yml`  
-****Issuing `=play full/path/to/your/file.mp3` will allow Watora to play your file
+****Issuing `=play full/path/to/your/file.mp3` will allow Watora to play your file.
 
