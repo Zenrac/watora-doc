@@ -9,6 +9,7 @@
 * [Autoplaylists](features/autoplaylists.md)
 * [Custom Commands](features/custom-commands.md)
 * [Blindtest](features/blindtest.md)
+* [Self hosting](features/self-hosting.md)
 
 ## Commands
 
